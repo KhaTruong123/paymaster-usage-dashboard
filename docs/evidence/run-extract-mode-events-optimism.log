@@ -1,0 +1,27 @@
+retry 1/20 optimism-mainnet from 157426115 after HTTP 529
+retry 1/20 optimism-mainnet from 157507117 after HTTP 529
+retry 1/20 optimism-mainnet from 157548457 after HTTP 529
+retry 1/20 optimism-mainnet from 157588847 after HTTP 529
+retry 1/20 optimism-mainnet from 157467361 after HTTP 529
+retry 1/20 optimism-mainnet from 157387189 after HTTP 529
+retry 1/20 optimism-mainnet from 157350835 after HTTP 529
+retry 1/20 optimism-mainnet from 157309303 after HTTP 529
+retry 1/20 optimism-mainnet from 157468258 after HTTP 529
+retry 2/20 optimism-mainnet from 157426115 after HTTP 529
+retry 2/20 optimism-mainnet from 157588847 after HTTP 529
+retry 1/20 optimism-mainnet from 157549503 after HTTP 529
+retry 1/20 optimism-mainnet from 157511433 after HTTP 529
+retry 2/20 optimism-mainnet from 157350835 after HTTP 529
+retry 1/20 optimism-mainnet from 157390661 after HTTP 529
+retry 1/20 optimism-mainnet from 157311329 after HTTP 529
+retry 1/20 optimism-mainnet from 157469358 after HTTP 529
+retry 1/20 optimism-mainnet from 157550663 after HTTP 529
+retry 3/20 optimism-mainnet from 157426115 after HTTP 529
+retry 1/20 optimism-mainnet from 157589720 after HTTP 529
+retry 1/20 optimism-mainnet from 157514014 after HTTP 529
+retry 2/20 optimism-mainnet from 157390661 after HTTP 529
+retry 1/20 optimism-mainnet from 157352145 after HTTP 529
+# NOTE added by hand 2026-10-25 14:08 +07: this log file was rewritten in place mid-run (to strip local
+# paths), which detached the running process from it. Retry lines after that point and the final line
+# were lost. The process exited 0. Totals below are computed from data/raw/paymaster-mode-events-daily-optimism.csv.
+optimism: 21610 mode events in 553 groups

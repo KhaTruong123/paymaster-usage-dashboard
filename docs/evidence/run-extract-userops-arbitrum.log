@@ -1,0 +1,10 @@
+arbitrum: blocks 508277790-517682963, 8 slices, 2 workers
+arbitrum: slice 1/8 done, 126621 ops so far, 222s
+arbitrum: slice 2/8 done, 239314 ops so far, 222s
+arbitrum: slice 3/8 done, 335226 ops so far, 298s
+arbitrum: slice 4/8 done, 449117 ops so far, 409s
+arbitrum: slice 5/8 done, 546380 ops so far, 409s
+arbitrum: slice 6/8 done, 631389 ops so far, 588s
+arbitrum: slice 7/8 done, 720904 ops so far, 588s
+arbitrum: slice 8/8 done, 802816 ops so far, 813s
+arbitrum: DONE 802816 userops in 814s -> ./data/work/arbitrum-userops.csv.gz

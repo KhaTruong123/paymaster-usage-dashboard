@@ -1,0 +1,546 @@
+base: blocks 51709327-53005326, 48 slices, 8 workers
+base: slice 1/48 done, 258208 ops so far, 556s
+base: slice 2/48 done, 529023 ops so far, 556s
+base: slice 3/48 done, 765088 ops so far, 556s
+base: slice 4/48 done, 968466 ops so far, 556s
+base: slice 5/48 done, 1204713 ops so far, 561s
+base: slice 6/48 done, 1409464 ops so far, 584s
+base: slice 7/48 done, 1623663 ops so far, 584s
+base: slice 8/48 done, 1840166 ops so far, 800s
+base: slice 9/48 done, 2068219 ops so far, 858s
+base: slice 10/48 done, 2341467 ops so far, 991s
+base: slice 11/48 done, 2550579 ops so far, 1055s
+base: slice 12/48 done, 2756951 ops so far, 1055s
+base: slice 13/48 done, 3002111 ops so far, 1055s
+base: slice 14/48 done, 3203665 ops so far, 1055s
+base: slice 15/48 done, 3406680 ops so far, 1055s
+base: slice 16/48 done, 3601931 ops so far, 1096s
+base: slice 17/48 done, 3771562 ops so far, 1367s
+base: slice 18/48 done, 3979974 ops so far, 1367s
+base: slice 19/48 done, 4181024 ops so far, 1662s
+base: slice 20/48 done, 4370796 ops so far, 1662s
+base: slice 21/48 done, 4610157 ops so far, 1662s
+base: slice 22/48 done, 4819671 ops so far, 1662s
+base: slice 23/48 done, 5034895 ops so far, 1662s
+base: slice 24/48 done, 5259081 ops so far, 1794s
+base: slice 25/48 done, 5463237 ops so far, 1881s
+base: slice 26/48 done, 5696105 ops so far, 1881s
+base: slice 27/48 done, 5875795 ops so far, 1881s
+base: slice 28/48 done, 6088367 ops so far, 2040s
+base: slice 29/48 done, 6312755 ops so far, 2040s
+base: slice 30/48 done, 6505085 ops so far, 2048s
+base: slice 31/48 done, 6711454 ops so far, 3500s
+base: slice 32/48 done, 7005410 ops so far, 3500s
+base: slice 33/48 done, 7246222 ops so far, 3500s
+== resumed run 2026-10-25T02:54:38Z: workers 6, slices 48
+base: blocks 51709327-53005326, 48 slices, 6 workers
+base: slice 1/48 done, 258208 ops so far, 0s
+base: slice 2/48 done, 529023 ops so far, 0s
+base: slice 3/48 done, 765088 ops so far, 0s
+base: slice 4/48 done, 968466 ops so far, 0s
+base: slice 5/48 done, 1204713 ops so far, 0s
+base: slice 6/48 done, 1409464 ops so far, 0s
+base: slice 7/48 done, 1623663 ops so far, 0s
+base: slice 8/48 done, 1840166 ops so far, 0s
+base: slice 9/48 done, 2068219 ops so far, 0s
+base: slice 10/48 done, 2341467 ops so far, 0s
+base: slice 11/48 done, 2550579 ops so far, 0s
+base: slice 12/48 done, 2756951 ops so far, 0s
+base: slice 13/48 done, 3002111 ops so far, 0s
+base: slice 14/48 done, 3203665 ops so far, 0s
+base: slice 15/48 done, 3406680 ops so far, 0s
+base: slice 16/48 done, 3601931 ops so far, 0s
+base: slice 17/48 done, 3771562 ops so far, 0s
+base: slice 18/48 done, 3979974 ops so far, 0s
+base: slice 19/48 done, 4181024 ops so far, 0s
+base: slice 20/48 done, 4370796 ops so far, 0s
+base: slice 21/48 done, 4610157 ops so far, 0s
+base: slice 22/48 done, 4819671 ops so far, 0s
+base: slice 23/48 done, 5034895 ops so far, 0s
+base: slice 24/48 done, 5259081 ops so far, 0s
+base: slice 25/48 done, 5463237 ops so far, 0s
+base: slice 26/48 done, 5696105 ops so far, 0s
+base: slice 27/48 done, 5875795 ops so far, 0s
+base: slice 28/48 done, 6088367 ops so far, 0s
+base: slice 29/48 done, 6312755 ops so far, 0s
+base: slice 30/48 done, 6505085 ops so far, 0s
+base: slice 31/48 done, 6711454 ops so far, 0s
+base: slice 32/48 done, 7005410 ops so far, 0s
+base: slice 33/48 done, 7246222 ops so far, 0s
+retry 1/20 base-mainnet from 52735365 after HTTP 529
+retry 1/20 base-mainnet from 52600360 after HTTP 529
+retry 1/20 base-mainnet from 52628168 after HTTP 529
+retry 1/20 base-mainnet from 52709829 after HTTP 529
+retry 1/20 base-mainnet from 52656210 after HTTP 529
+retry 1/20 base-mainnet from 52683519 after HTTP 529
+retry 1/20 base-mainnet from 52736766 after HTTP 529
+retry 2/20 base-mainnet from 52709829 after HTTP 529
+retry 1/20 base-mainnet from 52601308 after HTTP 529
+retry 1/20 base-mainnet from 52629812 after HTTP 529
+retry 1/20 base-mainnet from 52685249 after HTTP 529
+retry 2/20 base-mainnet from 52736766 after HTTP 529
+retry 1/20 base-mainnet from 52660091 after HTTP 529
+retry 2/20 base-mainnet from 52629812 after HTTP 529
+retry 1/20 base-mainnet from 52712264 after HTTP 529
+retry 1/20 base-mainnet from 52603558 after HTTP 529
+retry 2/20 base-mainnet from 52685249 after HTTP 529
+retry 3/20 base-mainnet from 52629812 after HTTP 529
+retry 1/20 base-mainnet from 52663027 after HTTP 529
+retry 1/20 base-mainnet from 52741081 after HTTP 529
+retry 1/20 base-mainnet from 52713895 after HTTP 529
+retry 4/20 base-mainnet from 52629812 after HTTP 529
+retry 1/20 base-mainnet from 52686207 after HTTP 529
+retry 1/20 base-mainnet from 52606619 after HTTP 529
+retry 2/20 base-mainnet from 52663027 after HTTP 529
+retry 2/20 base-mainnet from 52741081 after HTTP 529
+retry 2/20 base-mainnet from 52713895 after HTTP 529
+retry 1/20 base-mainnet from 52630386 after HTTP 529
+retry 1/20 base-mainnet from 52686669 after HTTP 529
+retry 3/20 base-mainnet from 52663027 after HTTP 529
+retry 1/20 base-mainnet from 52607872 after HTTP 529
+retry 1/20 base-mainnet from 52741629 after HTTP 529
+retry 3/20 base-mainnet from 52713895 after HTTP 529
+retry 2/20 base-mainnet from 52630386 after HTTP 529
+retry 2/20 base-mainnet from 52607872 after HTTP 529
+retry 1/20 base-mainnet from 52663621 after HTTP 529
+retry 1/20 base-mainnet from 52686893 after HTTP 529
+retry 1/20 base-mainnet from 52741880 after HTTP 529
+retry 4/20 base-mainnet from 52713895 after HTTP 529
+retry 1/20 base-mainnet from 52630996 after HTTP 529
+retry 2/20 base-mainnet from 52686893 after HTTP 529
+retry 3/20 base-mainnet from 52607872 after HTTP 529
+retry 2/20 base-mainnet from 52663621 after HTTP 529
+retry 5/20 base-mainnet from 52713895 after HTTP 529
+retry 2/20 base-mainnet from 52630996 after HTTP 529
+retry 4/20 base-mainnet from 52607872 after HTTP 529
+retry 1/20 base-mainnet from 52745669 after HTTP 529
+retry 3/20 base-mainnet from 52686893 after HTTP 529
+retry 1/20 base-mainnet from 52665529 after HTTP 529
+retry 1/20 base-mainnet from 52631646 after HTTP 529
+retry 5/20 base-mainnet from 52607872 after HTTP 529
+retry 4/20 base-mainnet from 52686893 after HTTP 529
+retry 1/20 base-mainnet from 52746356 after HTTP 529
+retry 2/20 base-mainnet from 52665529 after HTTP 529
+retry 1/20 base-mainnet from 52719724 after HTTP 529
+retry 2/20 base-mainnet from 52631646 after HTTP 529
+retry 3/20 base-mainnet from 52665529 after HTTP 529
+retry 2/20 base-mainnet from 52746356 after HTTP 529
+retry 1/20 base-mainnet from 52687759 after HTTP 529
+retry 1/20 base-mainnet from 52720602 after HTTP 529
+retry 3/20 base-mainnet from 52631646 after HTTP 529
+retry 1/20 base-mainnet from 52612705 after HTTP 529
+retry 4/20 base-mainnet from 52665529 after HTTP 529
+retry 1/20 base-mainnet from 52747018 after HTTP 529
+retry 1/20 base-mainnet from 52688407 after HTTP 529
+retry 1/20 base-mainnet from 52632244 after HTTP 529
+retry 1/20 base-mainnet from 52721359 after HTTP 529
+retry 5/20 base-mainnet from 52665529 after HTTP 529
+retry 2/20 base-mainnet from 52747018 after HTTP 529
+retry 1/20 base-mainnet from 52615719 after HTTP 529
+retry 2/20 base-mainnet from 52632244 after HTTP 529
+retry 1/20 base-mainnet from 52688749 after HTTP 529
+retry 1/20 base-mainnet from 52723027 after HTTP 529
+retry 3/20 base-mainnet from 52747018 after HTTP 529
+retry 1/20 base-mainnet from 52666522 after HTTP 529
+retry 2/20 base-mainnet from 52615719 after HTTP 529
+retry 2/20 base-mainnet from 52688749 after HTTP 529
+retry 2/20 base-mainnet from 52723027 after HTTP 529
+retry 1/20 base-mainnet from 52633506 after HTTP 529
+retry 2/20 base-mainnet from 52666522 after HTTP 529
+retry 1/20 base-mainnet from 52748324 after HTTP 529
+retry 1/20 base-mainnet from 52690137 after HTTP 529
+retry 1/20 base-mainnet from 52724600 after HTTP 529
+retry 1/20 base-mainnet from 52668292 after HTTP 529
+retry 1/20 base-mainnet from 52749001 after HTTP 529
+retry 1/20 base-mainnet from 52620473 after HTTP 529
+retry 1/20 base-mainnet from 52638549 after HTTP 529
+retry 1/20 base-mainnet from 52691305 after HTTP 529
+retry 2/20 base-mainnet from 52724600 after HTTP 529
+retry 2/20 base-mainnet from 52668292 after HTTP 529
+retry 1/20 base-mainnet from 52749587 after HTTP 529
+retry 1/20 base-mainnet from 52622090 after HTTP 529
+retry 1/20 base-mainnet from 52692185 after HTTP 529
+retry 1/20 base-mainnet from 52725900 after HTTP 529
+retry 1/20 base-mainnet from 52668888 after HTTP 529
+retry 1/20 base-mainnet from 52640356 after HTTP 529
+retry 2/20 base-mainnet from 52749587 after HTTP 529
+retry 1/20 base-mainnet from 52622543 after HTTP 529
+retry 1/20 base-mainnet from 52692653 after HTTP 529
+retry 2/20 base-mainnet from 52640356 after HTTP 529
+retry 1/20 base-mainnet from 52726564 after HTTP 529
+retry 1/20 base-mainnet from 52669539 after HTTP 529
+retry 2/20 base-mainnet from 52622543 after HTTP 529
+retry 1/20 base-mainnet from 52752344 after HTTP 529
+retry 3/20 base-mainnet from 52640356 after HTTP 529
+retry 2/20 base-mainnet from 52669539 after HTTP 529
+retry 1/20 base-mainnet from 52694111 after HTTP 529
+retry 1/20 base-mainnet from 52727236 after HTTP 529
+retry 3/20 base-mainnet from 52622543 after HTTP 529
+retry 1/20 base-mainnet from 52640823 after HTTP 529
+retry 3/20 base-mainnet from 52669539 after HTTP 529
+retry 1/20 base-mainnet from 52753868 after HTTP 529
+retry 1/20 base-mainnet from 52727999 after HTTP 529
+retry 1/20 base-mainnet from 52695176 after HTTP 529
+retry 4/20 base-mainnet from 52622543 after HTTP 529
+retry 2/20 base-mainnet from 52640823 after HTTP 529
+retry 1/20 base-mainnet from 52754718 after HTTP 529
+retry 1/20 base-mainnet from 52671581 after HTTP 529
+retry 2/20 base-mainnet from 52727999 after HTTP 529
+retry 2/20 base-mainnet from 52695176 after HTTP 529
+retry 1/20 base-mainnet from 52624113 after HTTP 529
+retry 1/20 base-mainnet from 52641082 after HTTP 529
+retry 1/20 base-mainnet from 52755609 after HTTP 529
+retry 1/20 base-mainnet from 52672140 after HTTP 529
+retry 3/20 base-mainnet from 52727999 after HTTP 529
+retry 3/20 base-mainnet from 52695176 after HTTP 529
+retry 2/20 base-mainnet from 52624113 after HTTP 529
+retry 2/20 base-mainnet from 52755609 after HTTP 529
+retry 1/20 base-mainnet from 52673357 after HTTP 529
+retry 1/20 base-mainnet from 52695772 after HTTP 529
+retry 1/20 base-mainnet from 52641992 after HTTP 529
+retry 1/20 base-mainnet from 52729510 after HTTP 529
+retry 1/20 base-mainnet from 52624661 after HTTP 529
+retry 1/20 base-mainnet from 52757887 after HTTP 529
+retry 2/20 base-mainnet from 52695772 after HTTP 529
+retry 1/20 base-mainnet from 52674588 after HTTP 529
+retry 1/20 base-mainnet from 52642291 after HTTP 529
+retry 2/20 base-mainnet from 52729510 after HTTP 529
+retry 2/20 base-mainnet from 52624661 after HTTP 529
+retry 3/20 base-mainnet from 52695772 after HTTP 529
+retry 1/20 base-mainnet from 52758723 after HTTP 529
+retry 2/20 base-mainnet from 52642291 after HTTP 529
+retry 1/20 base-mainnet from 52730272 after HTTP 529
+retry 1/20 base-mainnet from 52676437 after HTTP 529
+retry 1/20 base-mainnet from 52696349 after HTTP 529
+retry 1/20 base-mainnet from 52760254 after HTTP 529
+retry 2/20 base-mainnet from 52730272 after HTTP 529
+retry 1/20 base-mainnet from 52626870 after HTTP 529
+retry 1/20 base-mainnet from 52642740 after HTTP 529
+retry 2/20 base-mainnet from 52696349 after HTTP 529
+retry 1/20 base-mainnet from 52761073 after HTTP 529
+base: slice 34/48 done, 7499826 ops so far, 362s
+retry 1/20 base-mainnet from 52643100 after HTTP 529
+retry 1/20 base-mainnet from 52762989 after HTTP 529
+retry 1/20 base-mainnet from 52732084 after HTTP 529
+retry 1/20 base-mainnet from 52791007 after HTTP 529
+retry 1/20 base-mainnet from 52761878 after HTTP 529
+retry 1/20 base-mainnet from 52699675 after HTTP 529
+retry 2/20 base-mainnet from 52732084 after HTTP 529
+retry 2/20 base-mainnet from 52643100 after HTTP 529
+retry 1/20 base-mainnet from 52763661 after HTTP 529
+retry 2/20 base-mainnet from 52791007 after HTTP 529
+retry 2/20 base-mainnet from 52761878 after HTTP 529
+retry 3/20 base-mainnet from 52643100 after HTTP 529
+retry 1/20 base-mainnet from 52701263 after HTTP 529
+retry 1/20 base-mainnet from 52733347 after HTTP 529
+retry 1/20 base-mainnet from 52764361 after HTTP 529
+retry 1/20 base-mainnet from 52793326 after HTTP 529
+retry 2/20 base-mainnet from 52701263 after HTTP 529
+retry 1/20 base-mainnet from 52816795 after HTTP 529
+retry 1/20 base-mainnet from 52644111 after HTTP 529
+retry 1/20 base-mainnet from 52843369 after HTTP 529
+retry 1/20 base-mainnet from 52793979 after HTTP 529
+retry 3/20 base-mainnet from 52701263 after HTTP 529
+retry 1/20 base-mainnet from 52817259 after HTTP 529
+retry 1/20 base-mainnet from 52768912 after HTTP 529
+retry 2/20 base-mainnet from 52843369 after HTTP 529
+retry 1/20 base-mainnet from 52645444 after HTTP 529
+retry 1/20 base-mainnet from 52795209 after HTTP 529
+retry 2/20 base-mainnet from 52817259 after HTTP 529
+retry 1/20 base-mainnet from 52702118 after HTTP 529
+retry 2/20 base-mainnet from 52768912 after HTTP 529
+retry 1/20 base-mainnet from 52843865 after HTTP 529
+retry 1/20 base-mainnet from 52645916 after HTTP 529
+retry 3/20 base-mainnet from 52768912 after HTTP 529
+retry 1/20 base-mainnet from 52796614 after HTTP 529
+retry 1/20 base-mainnet from 52703621 after HTTP 529
+retry 1/20 base-mainnet from 52845159 after HTTP 529
+retry 1/20 base-mainnet from 52821447 after HTTP 529
+retry 2/20 base-mainnet from 52796614 after HTTP 529
+retry 1/20 base-mainnet from 52648981 after HTTP 529
+retry 1/20 base-mainnet from 52845769 after HTTP 529
+retry 1/20 base-mainnet from 52823179 after HTTP 529
+retry 1/20 base-mainnet from 52707186 after HTTP 529
+retry 2/20 base-mainnet from 52648981 after HTTP 529
+retry 1/20 base-mainnet from 52797327 after HTTP 529
+retry 1/20 base-mainnet from 52775644 after HTTP 529
+retry 1/20 base-mainnet from 52846378 after HTTP 529
+retry 2/20 base-mainnet from 52797327 after HTTP 529
+retry 1/20 base-mainnet from 52707986 after HTTP 529
+retry 1/20 base-mainnet from 52650046 after HTTP 529
+retry 2/20 base-mainnet from 52775644 after HTTP 529
+retry 1/20 base-mainnet from 52827150 after HTTP 529
+retry 2/20 base-mainnet from 52846378 after HTTP 529
+retry 3/20 base-mainnet from 52797327 after HTTP 529
+retry 2/20 base-mainnet from 52650046 after HTTP 529
+retry 1/20 base-mainnet from 52870370 after HTTP 529
+retry 1/20 base-mainnet from 52776193 after HTTP 529
+retry 1/20 base-mainnet from 52827816 after HTTP 529
+retry 1/20 base-mainnet from 52847005 after HTTP 529
+retry 3/20 base-mainnet from 52650046 after HTTP 529
+retry 1/20 base-mainnet from 52799321 after HTTP 529
+retry 1/20 base-mainnet from 52872140 after HTTP 529
+retry 2/20 base-mainnet from 52847005 after HTTP 529
+retry 1/20 base-mainnet from 52780005 after HTTP 529
+retry 1/20 base-mainnet from 52831308 after HTTP 529
+retry 1/20 base-mainnet from 52652396 after HTTP 529
+retry 2/20 base-mainnet from 52872140 after HTTP 529
+retry 1/20 base-mainnet from 52800727 after HTTP 529
+retry 1/20 base-mainnet from 52848843 after HTTP 529
+retry 1/20 base-mainnet from 52780677 after HTTP 529
+retry 2/20 base-mainnet from 52652396 after HTTP 529
+retry 1/20 base-mainnet from 52833246 after HTTP 529
+retry 1/20 base-mainnet from 52873338 after HTTP 529
+retry 1/20 base-mainnet from 52850136 after HTTP 529
+retry 3/20 base-mainnet from 52652396 after HTTP 529
+retry 1/20 base-mainnet from 52781505 after HTTP 529
+retry 1/20 base-mainnet from 52804860 after HTTP 529
+retry 1/20 base-mainnet from 52837011 after HTTP 529
+retry 2/20 base-mainnet from 52850136 after HTTP 529
+retry 1/20 base-mainnet from 52875278 after HTTP 529
+retry 2/20 base-mainnet from 52781505 after HTTP 529
+base: slice 35/48 done, 7751193 ops so far, 560s
+base: slice 36/48 done, 7973141 ops so far, 560s
+base: slice 37/48 done, 8257875 ops so far, 560s
+base: slice 38/48 done, 8496537 ops so far, 560s
+base: slice 39/48 done, 8759619 ops so far, 560s
+retry 1/20 base-mainnet from 52898087 after HTTP 529
+retry 1/20 base-mainnet from 52806249 after HTTP 529
+retry 3/20 base-mainnet from 52850136 after HTTP 529
+retry 2/20 base-mainnet from 52875278 after HTTP 529
+retry 3/20 base-mainnet from 52781505 after HTTP 529
+retry 1/20 base-mainnet from 52838266 after HTTP 529
+retry 1/20 base-mainnet from 52899319 after HTTP 529
+retry 3/20 base-mainnet from 52875278 after HTTP 529
+retry 4/20 base-mainnet from 52850136 after HTTP 529
+retry 1/20 base-mainnet from 52783262 after HTTP 529
+retry 1/20 base-mainnet from 52810722 after HTTP 529
+retry 2/20 base-mainnet from 52838266 after HTTP 529
+retry 1/20 base-mainnet from 52899661 after HTTP 529
+retry 4/20 base-mainnet from 52875278 after HTTP 529
+retry 1/20 base-mainnet from 52783910 after HTTP 529
+retry 1/20 base-mainnet from 52838915 after HTTP 529
+retry 1/20 base-mainnet from 52853358 after HTTP 529
+retry 1/20 base-mainnet from 52813166 after HTTP 529
+retry 5/20 base-mainnet from 52875278 after HTTP 529
+retry 1/20 base-mainnet from 52900970 after HTTP 529
+retry 2/20 base-mainnet from 52838915 after HTTP 529
+retry 2/20 base-mainnet from 52900970 after HTTP 529
+retry 1/20 base-mainnet from 52876423 after HTTP 529
+retry 1/20 base-mainnet from 52785139 after HTTP 529
+retry 1/20 base-mainnet from 52855034 after HTTP 529
+retry 1/20 base-mainnet from 52814947 after HTTP 529
+retry 1/20 base-mainnet from 52839594 after HTTP 529
+retry 1/20 base-mainnet from 52901318 after HTTP 529
+retry 1/20 base-mainnet from 52877010 after HTTP 529
+retry 2/20 base-mainnet from 52855034 after HTTP 529
+retry 1/20 base-mainnet from 52787099 after HTTP 529
+retry 1/20 base-mainnet from 52816187 after HTTP 529
+retry 1/20 base-mainnet from 52840249 after HTTP 529
+retry 2/20 base-mainnet from 52877010 after HTTP 529
+retry 1/20 base-mainnet from 52901709 after HTTP 529
+retry 3/20 base-mainnet from 52855034 after HTTP 529
+retry 2/20 base-mainnet from 52787099 after HTTP 529
+retry 1/20 base-mainnet from 52924909 after HTTP 529
+retry 3/20 base-mainnet from 52877010 after HTTP 529
+retry 1/20 base-mainnet from 52840940 after HTTP 529
+retry 4/20 base-mainnet from 52855034 after HTTP 529
+retry 1/20 base-mainnet from 52903444 after HTTP 529
+retry 1/20 base-mainnet from 52788858 after HTTP 529
+retry 2/20 base-mainnet from 52924909 after HTTP 529
+retry 1/20 base-mainnet from 52877558 after HTTP 529
+retry 1/20 base-mainnet from 52841648 after HTTP 529
+retry 5/20 base-mainnet from 52855034 after HTTP 529
+retry 2/20 base-mainnet from 52903444 after HTTP 529
+retry 3/20 base-mainnet from 52924909 after HTTP 529
+retry 2/20 base-mainnet from 52788858 after HTTP 529
+retry 1/20 base-mainnet from 52842347 after HTTP 529
+retry 6/20 base-mainnet from 52855034 after HTTP 529
+retry 1/20 base-mainnet from 52880922 after HTTP 529
+base: slice 40/48 done, 9060667 ops so far, 689s
+base: slice 41/48 done, 9351604 ops so far, 689s
+retry 1/20 base-mainnet from 52903789 after HTTP 529
+retry 1/20 base-mainnet from 52925473 after HTTP 529
+retry 7/20 base-mainnet from 52855034 after HTTP 529
+retry 1/20 base-mainnet from 52952357 after HTTP 529
+base: slice 42/48 done, 9623443 ops so far, 698s
+retry 1/20 base-mainnet from 52978374 after HTTP 529
+retry 1/20 base-mainnet from 52882192 after HTTP 529
+retry 1/20 base-mainnet from 52905012 after HTTP 529
+retry 1/20 base-mainnet from 52926208 after HTTP 529
+retry 1/20 base-mainnet from 52952931 after HTTP 529
+retry 1/20 base-mainnet from 52855513 after HTTP 529
+retry 1/20 base-mainnet from 52979312 after HTTP 529
+retry 2/20 base-mainnet from 52926208 after HTTP 529
+retry 2/20 base-mainnet from 52855513 after HTTP 529
+retry 1/20 base-mainnet from 52884944 after HTTP 529
+retry 1/20 base-mainnet from 52906402 after HTTP 529
+retry 3/20 base-mainnet from 52926208 after HTTP 529
+retry 1/20 base-mainnet from 52980701 after HTTP 529
+retry 3/20 base-mainnet from 52855513 after HTTP 529
+retry 1/20 base-mainnet from 52955681 after HTTP 529
+retry 2/20 base-mainnet from 52884944 after HTTP 529
+retry 2/20 base-mainnet from 52980701 after HTTP 529
+retry 1/20 base-mainnet from 52956215 after HTTP 529
+retry 1/20 base-mainnet from 52909657 after HTTP 529
+retry 1/20 base-mainnet from 52856032 after HTTP 529
+retry 1/20 base-mainnet from 52927652 after HTTP 529
+retry 3/20 base-mainnet from 52884944 after HTTP 529
+retry 3/20 base-mainnet from 52980701 after HTTP 529
+retry 2/20 base-mainnet from 52856032 after HTTP 529
+retry 4/20 base-mainnet from 52884944 after HTTP 529
+retry 2/20 base-mainnet from 52909657 after HTTP 529
+retry 2/20 base-mainnet from 52956215 after HTTP 529
+retry 1/20 base-mainnet from 52928364 after HTTP 529
+retry 3/20 base-mainnet from 52909657 after HTTP 529
+retry 1/20 base-mainnet from 52981096 after HTTP 529
+retry 5/20 base-mainnet from 52884944 after HTTP 529
+retry 1/20 base-mainnet from 52957390 after HTTP 529
+retry 1/20 base-mainnet from 52929608 after HTTP 529
+retry 1/20 base-mainnet from 52857417 after HTTP 529
+retry 4/20 base-mainnet from 52909657 after HTTP 529
+retry 2/20 base-mainnet from 52981096 after HTTP 529
+retry 2/20 base-mainnet from 52957390 after HTTP 529
+retry 1/20 base-mainnet from 52885637 after HTTP 529
+retry 2/20 base-mainnet from 52929608 after HTTP 529
+retry 1/20 base-mainnet from 52857787 after HTTP 529
+retry 1/20 base-mainnet from 52910052 after HTTP 529
+retry 1/20 base-mainnet from 52981960 after HTTP 529
+retry 3/20 base-mainnet from 52929608 after HTTP 529
+retry 1/20 base-mainnet from 52958086 after HTTP 529
+retry 1/20 base-mainnet from 52858050 after HTTP 529
+retry 1/20 base-mainnet from 52888336 after HTTP 529
+retry 2/20 base-mainnet from 52981960 after HTTP 529
+retry 1/20 base-mainnet from 52911029 after HTTP 529
+retry 2/20 base-mainnet from 52958086 after HTTP 529
+retry 1/20 base-mainnet from 52931313 after HTTP 529
+retry 2/20 base-mainnet from 52888336 after HTTP 529
+retry 3/20 base-mainnet from 52981960 after HTTP 529
+retry 1/20 base-mainnet from 52858679 after HTTP 529
+retry 2/20 base-mainnet from 52911029 after HTTP 529
+retry 3/20 base-mainnet from 52958086 after HTTP 529
+retry 1/20 base-mainnet from 52932571 after HTTP 529
+retry 3/20 base-mainnet from 52888336 after HTTP 529
+retry 1/20 base-mainnet from 52982358 after HTTP 529
+retry 1/20 base-mainnet from 52859061 after HTTP 529
+retry 1/20 base-mainnet from 52911675 after HTTP 529
+retry 1/20 base-mainnet from 52933220 after HTTP 529
+retry 1/20 base-mainnet from 52859476 after HTTP 529
+retry 1/20 base-mainnet from 52960805 after HTTP 529
+retry 1/20 base-mainnet from 52983133 after HTTP 529
+retry 1/20 base-mainnet from 52913423 after HTTP 529
+retry 1/20 base-mainnet from 52892942 after HTTP 529
+retry 1/20 base-mainnet from 52934805 after HTTP 529
+retry 2/20 base-mainnet from 52859476 after HTTP 529
+retry 1/20 base-mainnet from 52961528 after HTTP 529
+retry 1/20 base-mainnet from 52984219 after HTTP 529
+retry 1/20 base-mainnet from 52914660 after HTTP 529
+retry 2/20 base-mainnet from 52892942 after HTTP 529
+retry 1/20 base-mainnet from 52935388 after HTTP 529
+retry 3/20 base-mainnet from 52859476 after HTTP 529
+retry 2/20 base-mainnet from 52984219 after HTTP 529
+retry 1/20 base-mainnet from 52893617 after HTTP 529
+retry 1/20 base-mainnet from 52915336 after HTTP 529
+retry 4/20 base-mainnet from 52859476 after HTTP 529
+retry 1/20 base-mainnet from 52965240 after HTTP 529
+retry 1/20 base-mainnet from 52937144 after HTTP 529
+retry 3/20 base-mainnet from 52984219 after HTTP 529
+retry 2/20 base-mainnet from 52915336 after HTTP 529
+retry 1/20 base-mainnet from 52894804 after HTTP 529
+retry 5/20 base-mainnet from 52859476 after HTTP 529
+retry 2/20 base-mainnet from 52937144 after HTTP 529
+retry 2/20 base-mainnet from 52965240 after HTTP 529
+retry 4/20 base-mainnet from 52984219 after HTTP 529
+retry 1/20 base-mainnet from 52915883 after HTTP 529
+retry 3/20 base-mainnet from 52937144 after HTTP 529
+retry 1/20 base-mainnet from 52895452 after HTTP 529
+retry 1/20 base-mainnet from 52859897 after HTTP 529
+retry 2/20 base-mainnet from 52895452 after HTTP 529
+retry 1/20 base-mainnet from 52985227 after HTTP 529
+retry 1/20 base-mainnet from 52860555 after HTTP 529
+retry 1/20 base-mainnet from 52917178 after HTTP 529
+retry 1/20 base-mainnet from 52939741 after HTTP 529
+retry 1/20 base-mainnet from 52970638 after HTTP 529
+retry 1/20 base-mainnet from 52895890 after HTTP 529
+retry 2/20 base-mainnet from 52860555 after HTTP 529
+retry 1/20 base-mainnet from 52986078 after HTTP 529
+retry 2/20 base-mainnet from 52917178 after HTTP 529
+retry 1/20 base-mainnet from 52940366 after HTTP 529
+retry 2/20 base-mainnet from 52970638 after HTTP 529
+retry 2/20 base-mainnet from 52986078 after HTTP 529
+retry 2/20 base-mainnet from 52940366 after HTTP 529
+retry 1/20 base-mainnet from 52919085 after HTTP 529
+retry 1/20 base-mainnet from 52863424 after HTTP 529
+retry 3/20 base-mainnet from 52970638 after HTTP 529
+retry 3/20 base-mainnet from 52940366 after HTTP 529
+retry 1/20 base-mainnet from 52971289 after HTTP 529
+retry 2/20 base-mainnet from 52863424 after HTTP 529
+retry 1/20 base-mainnet from 52919510 after HTTP 529
+retry 1/20 base-mainnet from 52986820 after HTTP 529
+retry 3/20 base-mainnet from 52863424 after HTTP 529
+retry 2/20 base-mainnet from 52971289 after HTTP 529
+retry 4/20 base-mainnet from 52940366 after HTTP 529
+retry 2/20 base-mainnet from 52919510 after HTTP 529
+retry 1/20 base-mainnet from 52987276 after HTTP 529
+retry 3/20 base-mainnet from 52971289 after HTTP 529
+retry 5/20 base-mainnet from 52940366 after HTTP 529
+retry 1/20 base-mainnet from 52864021 after HTTP 529
+retry 1/20 base-mainnet from 52987905 after HTTP 529
+retry 1/20 base-mainnet from 52922220 after HTTP 529
+retry 1/20 base-mainnet from 52940923 after HTTP 529
+retry 1/20 base-mainnet from 52973730 after HTTP 529
+retry 1/20 base-mainnet from 52868742 after HTTP 529
+retry 1/20 base-mainnet from 52942100 after HTTP 529
+retry 2/20 base-mainnet from 52973730 after HTTP 529
+retry 1/20 base-mainnet from 52991187 after HTTP 529
+retry 1/20 base-mainnet from 52869398 after HTTP 529
+retry 1/20 base-mainnet from 52942619 after HTTP 529
+retry 2/20 base-mainnet from 52991187 after HTTP 529
+retry 1/20 base-mainnet from 52976191 after HTTP 529
+retry 1/20 base-mainnet from 52943118 after HTTP 529
+base: slice 43/48 done, 9972817 ops so far, 1049s
+base: slice 44/48 done, 10351074 ops so far, 1049s
+base: slice 45/48 done, 10714899 ops so far, 1049s
+retry 3/20 base-mainnet from 52991187 after HTTP 529
+retry 2/20 base-mainnet from 52976191 after HTTP 529
+retry 4/20 base-mainnet from 52991187 after HTTP 529
+retry 1/20 base-mainnet from 52944207 after HTTP 529
+retry 3/20 base-mainnet from 52976191 after HTTP 529
+retry 1/20 base-mainnet from 52991665 after HTTP 529
+retry 1/20 base-mainnet from 52977196 after HTTP 529
+retry 1/20 base-mainnet from 52946840 after HTTP 529
+retry 1/20 base-mainnet from 52992128 after HTTP 529
+retry 1/20 base-mainnet from 52977727 after HTTP 529
+retry 1/20 base-mainnet from 52947283 after HTTP 529
+retry 2/20 base-mainnet from 52992128 after HTTP 529
+retry 2/20 base-mainnet from 52947283 after HTTP 529
+retry 1/20 base-mainnet from 52993210 after HTTP 529
+retry 3/20 base-mainnet from 52947283 after HTTP 529
+retry 1/20 base-mainnet from 52993778 after HTTP 529
+retry 4/20 base-mainnet from 52947283 after HTTP 529
+retry 2/20 base-mainnet from 52993778 after HTTP 529
+retry 1/20 base-mainnet from 52948735 after HTTP 529
+retry 1/20 base-mainnet from 52995150 after HTTP 529
+retry 1/20 base-mainnet from 52949382 after HTTP 529
+retry 1/20 base-mainnet from 52996514 after HTTP 529
+retry 1/20 base-mainnet from 52950708 after HTTP 529
+retry 2/20 base-mainnet from 52996514 after HTTP 529
+retry 1/20 base-mainnet from 52951244 after HTTP 529
+retry 3/20 base-mainnet from 52996514 after HTTP 529
+base: slice 46/48 done, 11211728 ops so far, 1210s
+base: slice 47/48 done, 12007318 ops so far, 1210s
+retry 1/20 base-mainnet from 52997053 after HTTP 529
+retry 1/20 base-mainnet from 52998854 after HTTP 529
+retry 1/20 base-mainnet from 52999551 after HTTP 529
+retry 2/20 base-mainnet from 52999551 after HTTP 529
+retry 1/20 base-mainnet from 53000340 after HTTP 529
+retry 2/20 base-mainnet from 53000340 after HTTP 529
+retry 3/20 base-mainnet from 53000340 after HTTP 529
+retry 1/20 base-mainnet from 53002062 after HTTP 529
+retry 1/20 base-mainnet from 53002766 after HTTP 529
+retry 2/20 base-mainnet from 53002766 after HTTP 529
+retry 3/20 base-mainnet from 53002766 after HTTP 529
+retry 4/20 base-mainnet from 53002766 after HTTP 529
+retry 1/20 base-mainnet from 53003276 after HTTP 529
+base: slice 48/48 done, 12704730 ops so far, 1401s
+base: DONE 12704730 userops in 1402s -> ./data/work/base-userops.csv.gz

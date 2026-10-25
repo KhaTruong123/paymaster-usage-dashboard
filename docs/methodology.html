@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paymaster Usage Methodology</title>
+<meta name="description" content="Sources, window, definitions and known gaps behind the paymaster usage dashboard.">
+<style>
+:root { color-scheme: light; --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781; --grid: #e1e0d9; --ring: rgba(11,11,11,0.10); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781; --grid: #2c2c2a; --ring: rgba(255,255,255,0.10); } }
+:root[data-theme="dark"] { color-scheme: dark; --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781; --grid: #2c2c2a; --ring: rgba(255,255,255,0.10); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 820px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 26px; line-height: 1.2; } h2 { font-size: 19px; margin-top: 36px; }
+p, li { color: var(--ink-2); } a { color: inherit; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; overflow-wrap: anywhere; }
+pre { background: var(--surface); border: 1px solid var(--ring); border-radius: 8px; padding: 12px; overflow-x: auto; font-size: 13px; }
+.tablewrap { overflow-x: auto; } table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { color: var(--ink-2); }
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">Back to the dashboard</a></p>
+<h1>Methodology</h1>
+<p>The question, asked in the AA Mafia group on 2025-09-11: is there a dashboard that shows how much paymasters are actually used across L1 and L2s, as a percentage of all transactions? This page explains how the dashboard answers it, and where the answer stops.</p>
+
+<h2>Window and chains</h2>
+<ul>
+  <li>Window: 2026-09-24 00:00 UTC to 2026-10-24 00:00 UTC, 30 full days, end exclusive. The end date is the last full day that growthepie had published when the data was pulled (2026-10-25).</li>
+  <li>Chains: Ethereum mainnet, Base, Arbitrum One, OP Mainnet, Polygon PoS.</li>
+  <li>The first and last block of the window on each chain are in <code>docs/evidence/window-blocks.json</code>, with the timestamps of the blocks on each side of the boundary.</li>
+</ul>
+
+<h2>Sources</h2>
+<div class="tablewrap"><table>
+<tr><th>What</th><th>Source</th><th>Script</th></tr>
+<tr><td>Every userop</td><td><code>UserOperationEvent</code> logs from the canonical EntryPoints v0.6 <code>0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789</code>, v0.7 <code>0x0000000071727De22E5E9d8BAf0edAc6f37da032</code>, v0.8 <code>0x4337084D9E255Ff0702461CF8895CE9E3b5Ff108</code> and v0.9 <code>0x433709009B8330FDa32311DF1C2AFA402eD8D009</code>, read from the <a href="https://portal.sqd.dev">SQD Network public portal</a> (free, no key)</td><td><code>scripts/extract_userops.py</code>, <code>scripts/aggregate_userops.py</code></td></tr>
+<tr><td>How a paymaster was paid</td><td>The per-userop events that paymaster contracts emit themselves, read from the same portal</td><td><code>scripts/extract_paymaster_mode_events.py</code></td></tr>
+<tr><td>All transactions on each chain</td><td><a href="https://api.growthepie.com/v1/fundamentals.json">growthepie public API</a>, metric <code>txcount</code>. Cross-checked against the <a href="https://l2beat.com">L2BEAT</a> activity API for Base, Arbitrum and OP Mainnet.</td><td><code>scripts/fetch_chain_txcounts.py</code></td></tr>
+<tr><td>Token symbols and single-token paymasters</td><td><code>symbol()</code>, <code>decimals()</code> and <code>token()</code> calls through publicnode.com public RPC</td><td><code>scripts/resolve_tokens.py</code></td></tr>
+<tr><td>Paymaster labels</td><td>Provider docs and repos, verified contract sources on Sourcify, and two open label files: <a href="https://github.com/Jam516/BundleBear/blob/16bfc764fd595e7064f423a61b523fc82be402f8/models/erc4337/labels/erc4337_labels_paymasters.sql">BundleBear</a> and <a href="https://github.com/pimlicolabs/4337-stats/blob/91b029376b3f50699645094d2d3346611d34b87b/data/paymasters.csv">Pimlico 4337-stats</a>. One source URL per row.</td><td><code>data/paymaster-labels.csv</code>, notes in <code>data/paymaster-labels-notes.md</code></td></tr>
+<tr><td>Which tokens are stablecoins</td><td>The issuer's own address pages (Circle for USDC and EURC, USDT0 for USDT0)</td><td><code>data/stablecoins.csv</code></td></tr>
+</table></div>
+
+<h2>Definitions</h2>
+<ul>
+  <li><b>Userop</b>: one <code>UserOperationEvent</code> from one of the four EntryPoints. Failed userops are included, because the paymaster still paid gas for them. The <code>success</code> flag is kept in the raw tables.</li>
+  <li><b>Paymaster-paid userop</b>: a userop whose event has a nonzero <code>paymaster</code> field. Without a paymaster, the smart account paid its own gas from its EntryPoint deposit or balance.</li>
+  <li><b>Bundle</b>: one transaction that contains one or more userops. A bundle is a real transaction on the chain, so <b>bundles as a share of chain transactions</b> is a true share. Userops are not transactions, so <b>userops per 100 chain transactions</b> is a ratio, not a share, and can pass 100 in theory.</li>
+  <li><b>Paymaster bundle</b>: a bundle with at least one paymaster-paid userop.</li>
+  <li><b>ERC-20 mode userop</b>: a paymaster-paid userop where the paymaster contract emitted one of the events below with the ERC-20 flag set. The user paid for gas in a token.</li>
+  <li><b>Stablecoin userop</b>: an ERC-20 mode userop whose token address is listed in <code>data/stablecoins.csv</code>.</li>
+  <li><b>Paymaster, no ERC-20 event</b>: every other paymaster-paid userop. Most of these are sponsored (the app or provider paid). This group is an upper bound on sponsorship, because an ERC-20 paymaster that emits none of the events below lands here too.</li>
+</ul>
+
+<h2>How sponsored and ERC-20 userops are told apart</h2>
+<p>First, a sample of full bundle transactions on each chain showed which events each paymaster contract emits in the same transaction as its userops (<code>scripts/sample_fee_transfers.py</code>, output in <code>data/raw/paymaster-emitted-events-sample-*.csv</code>). Then the exact Solidity signatures were taken from verified sources (<code>data/paymaster-labels-notes.md</code>). The script derives each topic from the signature text, so a typo cannot match a different event.</p>
+<div class="tablewrap"><table>
+<tr><th>Event</th><th>Used by</th><th>ERC-20 mode when</th><th>Token from</th></tr>
+<tr><td><code>UserOperationSponsored(bytes32,address,uint8,address,uint256,uint256)</code></td><td>Pimlico SingletonPaymaster V6, V7, V8</td><td><code>paymasterMode == 1</code></td><td><code>token</code> field</td></tr>
+<tr><td><code>UserOperationSponsoredWithERC20(bytes32,uint128,address,address,uint256)</code></td><td>Coinbase CDP VerifyingPaymaster</td><td>always</td><td>indexed <code>token</code></td></tr>
+<tr><td><code>UserOperationSponsored(bytes32,uint128,address)</code></td><td>Coinbase CDP VerifyingPaymaster</td><td>never (sponsored)</td><td></td></tr>
+<tr><td><code>TokenSponsored(bytes32,address,uint256)</code></td><td>Alchemy Gas Manager (emitted only in ERC-20 mode)</td><td>always</td><td><code>tokenAddress</code></td></tr>
+<tr><td><code>UserOperationSponsored(address,address,bytes32,uint256,uint256,uint256)</code></td><td>Circle Paymaster V07, V08</td><td>always</td><td>indexed <code>token</code></td></tr>
+<tr><td><code>UserOperationSponsored(bytes32,address,address,uint256)</code></td><td>Candide Paymaster</td><td><code>cost != 0</code></td><td>indexed <code>token</code></td></tr>
+<tr><td><code>TokenPaymasterOperation(address,address,uint256,address,uint32,bytes32,uint256,uint8)</code></td><td>Biconomy v0.6 token paymaster, Etherspot MultiTokenPaymaster</td><td>always</td><td>indexed <code>token</code></td></tr>
+<tr><td><code>PaidGasInTokens(address,address,uint256,uint256,uint32,uint256,bytes32)</code></td><td>Biconomy v0.7 token paymaster</td><td>always</td><td>indexed <code>token</code></td></tr>
+<tr><td><code>GasPaidInERC20(address,uint256,uint256)</code></td><td>Openfort PaymasterV2</td><td>always</td><td><code>erc20Token</code></td></tr>
+<tr><td><code>UserOperationSponsored(address,uint256,uint256)</code> and the 4 and 5 field variants</td><td>Pimlico PimlicoERC20Paymaster, eth-infinitism TokenPaymaster copies (thirdweb, Send)</td><td>always</td><td>the contract's <code>token()</code></td></tr>
+<tr><td><code>ChargeFee(bytes32,address,uint256)</code></td><td>BIC token on Arbitrum, which is its own paymaster</td><td>always</td><td>the emitting contract (BIC)</td></tr>
+</table></div>
+<p>An event only counts when the contract that emitted it is a paymaster that appears in <code>UserOperationEvent</code> on that chain in the window. Counts are per event over the window. The samples show one event per userop for these contracts.</p>
+<p>One more rule uses labels instead of events. A paymaster whose sourced label says it is ERC-20 only (for example UXLink and Bron), and that emits none of the events above, has all its userops counted as ERC-20 mode with the token shown as unknown. Those userops are never counted as stablecoin, because the token is not visible in the logs.</p>
+<p>A first attempt matched ERC-20 <code>Transfer</code> logs from the userop sender. It does not work: most such transfers are the user's own payments to apps, not gas fees. That sample is kept in <code>data/raw/fee-transfer-sample-*.csv</code> as evidence.</p>
+
+<h2>Known gaps</h2>
+<ul>
+  <li><b>ERC-20 share is a lower bound.</b> Paymasters that charge a token but emit none of the events above count as "no ERC-20 event". The main known case is Stackup, whose paymaster can run both modes and emits no per-userop event. Its mode sits only in <code>paymasterAndData</code>, which is calldata and is not read here. Hybrid contracts with no event, and unlabeled contracts, all land in "no ERC-20 event".</li>
+  <li><b>Sponsorship without a paymaster is missed.</b> Gelato Gas Tank and Alchemy bundler-sponsored userops set no paymaster and look like self-paid userops.</li>
+  <li><b>Only canonical ERC-4337.</b> Non-canonical EntryPoints, native account abstraction (zkSync, Starknet) and EIP-7702 accounts that send normal transactions without an EntryPoint are not counted.</li>
+  <li><b>Chain totals use growthepie's definition.</b> L2BEAT agrees within 0.2% on the L2s where both exist. L2BEAT has no Ethereum or Polygon PoS series here, so those two have one source only.</li>
+  <li><b>Some labels are weak.</b> About 20 labels rest only on BundleBear or Pimlico's 4337-stats file, and a few rest only on a verified contract name. Each row says which in its note. Eight labeled addresses have no known operator, including the largest paymaster on Polygon PoS.</li>
+  <li><b>Labels cover the top paymasters only.</b> The table lists the top 25 per chain. Unlabeled means no public source was found, not that the contract is unknown to everyone.</li>
+  <li><b>Stablecoin list is short.</b> Only USDC, EURC, USDT and USDT0 addresses with an issuer page are counted as stablecoins. DAI, USAT, bridged USDC (USDC.e) and the older bridged USDT on OP Mainnet (<code>0x94b0...8e58</code>) appear in the token table with small counts and are not counted, so the stablecoin share is slightly low.</li>
+  <li><b>No USD values.</b> Gas cost is kept in native units (<code>actual_gas_cost_wei</code>) in the raw tables. It is not converted to USD.</li>
+  <li><b>One window.</b> The numbers describe these 30 days only. They are not a trend.</li>
+</ul>
+
+<h2>Reproduce</h2>
+<pre>python3 scripts/find_window_blocks.py
+python3 scripts/fetch_chain_txcounts.py
+for c in ethereum base arbitrum optimism polygon; do
+  python3 scripts/extract_userops.py $c 4
+  python3 scripts/aggregate_userops.py $c
+  python3 scripts/extract_paymaster_mode_events.py $c 2
+done
+python3 scripts/resolve_tokens.py
+python3 scripts/summarize.py
+python3 scripts/build_dashboard.py</pre>
+<p>Python 3 standard library only. The per-userop work files are too large to commit (<code>data/work/</code> is git-ignored). Their SHA-256 hashes are in <code>docs/evidence/work-file-*.json</code>, and the hash of every portal response is in <code>docs/evidence/portal-responses-*.csv</code>. Run logs are in <code>docs/evidence/run-*.log</code>.</p>
+</main>
+</body>
+</html>

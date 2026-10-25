@@ -1,0 +1,7 @@
+{
+  "file": "data/work/ethereum-userops.csv.gz",
+  "sha256": "a5bc5214d05d8ea214b66b89e541e41a01ebc6fe9f45da6c7feb5218978296ea",
+  "userop_rows": 1034182,
+  "distinct_senders_window": 291082,
+  "note": "Not committed (size). Rebuild with scripts/extract_userops.py; per-response hashes in docs/evidence/portal-responses-userops-ethereum.csv."
+}

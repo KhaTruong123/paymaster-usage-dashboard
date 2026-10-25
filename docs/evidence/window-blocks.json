@@ -1,0 +1,51 @@
+{
+  "window_start_utc": "2026-09-24",
+  "window_end_utc_exclusive": "2026-10-24",
+  "chains": {
+    "ethereum": {
+      "dataset": "ethereum-mainnet",
+      "from_block": 26043611,
+      "to_block": 26258773,
+      "from_block_timestamp": 1790208011,
+      "to_block_timestamp": 1792799999,
+      "previous_block_timestamp": 1790207999,
+      "next_block_timestamp": 1792800011
+    },
+    "base": {
+      "dataset": "base-mainnet",
+      "from_block": 51709327,
+      "to_block": 53005326,
+      "from_block_timestamp": 1790208001,
+      "to_block_timestamp": 1792799999,
+      "previous_block_timestamp": 1790207999,
+      "next_block_timestamp": 1792800001
+    },
+    "arbitrum": {
+      "dataset": "arbitrum-one",
+      "from_block": 508277790,
+      "to_block": 517682963,
+      "from_block_timestamp": 1790208000,
+      "to_block_timestamp": 1792799999,
+      "previous_block_timestamp": 1790207999,
+      "next_block_timestamp": 1792800000
+    },
+    "optimism": {
+      "dataset": "optimism-mainnet",
+      "from_block": 157304612,
+      "to_block": 158600611,
+      "from_block_timestamp": 1790208001,
+      "to_block_timestamp": 1792799999,
+      "previous_block_timestamp": 1790207999,
+      "next_block_timestamp": 1792800001
+    },
+    "polygon": {
+      "dataset": "polygon-mainnet",
+      "from_block": 94335249,
+      "to_block": 96063085,
+      "from_block_timestamp": 1790208001,
+      "to_block_timestamp": 1792799999,
+      "previous_block_timestamp": 1790207999,
+      "next_block_timestamp": 1792800000
+    }
+  }
+}

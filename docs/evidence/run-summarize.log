@@ -1,0 +1,24 @@
+{
+  "window_start_utc": "2026-09-24",
+  "window_end_utc_exclusive": "2026-10-24",
+  "chains": [
+    "ethereum",
+    "base",
+    "arbitrum",
+    "optimism",
+    "polygon"
+  ],
+  "chain_txs_growthepie": 543079941,
+  "userops": 23657742,
+  "userops_with_paymaster": 17841104,
+  "bundle_txs": 18144479,
+  "bundle_txs_with_paymaster_op": 12962520,
+  "paymaster_ops_erc20_mode": 841318,
+  "paymaster_ops_stablecoin": 789373,
+  "pct_userops_with_paymaster": 75.4134,
+  "pct_chain_txs_that_are_bundles": 3.341,
+  "pct_chain_txs_that_are_bundles_with_paymaster_op": 2.3869,
+  "pct_paymaster_ops_erc20_mode": 4.7156,
+  "pct_paymaster_ops_stablecoin": 4.4245,
+  "pct_erc20_mode_ops_in_stablecoins": 93.8258
+}

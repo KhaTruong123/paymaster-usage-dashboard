@@ -1,0 +1,13 @@
+# Commands run 2026-10-25 (UTC+7 ~08:20-08:28) from scripts/, stdout copied from the terminal.
+# The sample block ranges sit at the end of or just after the window; they are used for discovering
+# which events each paymaster emits, not for any published count.
+$ python3 sample_fee_transfers.py ethereum 26250000 7200
+{"chain": "ethereum", "blocks": [26250000, 26257199], "paymasters": 35, "paymaster_ops": 25724}
+$ python3 sample_fee_transfers.py arbitrum 517000000 28800
+{"chain": "arbitrum", "blocks": [517000000, 517028799], "paymasters": 25, "paymaster_ops": 1029}
+$ python3 sample_fee_transfers.py optimism 158600000 3600
+{"chain": "optimism", "blocks": [158600000, 158603599], "paymasters": 15, "paymaster_ops": 531}
+$ python3 sample_fee_transfers.py polygon 96080000 3600
+{"chain": "polygon", "blocks": [96080000, 96083599], "paymasters": 19, "paymaster_ops": 14258}
+$ python3 sample_fee_transfers.py base 53000000 1800
+{"chain": "base", "blocks": [53000000, 53001799], "paymasters": 33, "paymaster_ops": 8063}

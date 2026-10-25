@@ -17,7 +17,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-from common import (CHAINS, ENTRYPOINTS, EVIDENCE, USER_OPERATION_EVENT, WORK, load_window_blocks,
+from common import (CHAINS, ENTRYPOINTS, EVIDENCE, ROOT, USER_OPERATION_EVENT, WORK, load_window_blocks,
                     stream_range, topic_to_address, utc_day)
 
 QUERY = {
@@ -103,7 +103,7 @@ def main():
         w = csv.writer(f)
         w.writerow(["from_block", "requested_to_block", "last_block_served", "bytes", "sha256", "log_count"])
         w.writerows(evidence_rows)
-    print(f"{chain}: DONE {total} userops in {time.time() - t0:.0f}s -> {out}", flush=True)
+    print(f"{chain}: DONE {total} userops in {time.time() - t0:.0f}s -> {out.relative_to(ROOT)}", flush=True)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,7 @@
+{
+  "file": "data/work/arbitrum-userops.csv.gz",
+  "sha256": "40595729915cdaa342e56a12bc631700bcbe1e28d0fbf231cf46a628c48021d8",
+  "userop_rows": 802816,
+  "distinct_senders_window": 108753,
+  "note": "Not committed (size). Rebuild with scripts/extract_userops.py; per-response hashes in docs/evidence/portal-responses-userops-arbitrum.csv."
+}

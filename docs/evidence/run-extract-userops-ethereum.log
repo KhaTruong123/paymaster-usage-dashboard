@@ -1,0 +1,10 @@
+ethereum: blocks 26043611-26258773, 8 slices, 2 workers
+ethereum: slice 1/8 done, 121835 ops so far, 629s
+ethereum: slice 2/8 done, 265063 ops so far, 629s
+ethereum: slice 3/8 done, 393592 ops so far, 629s
+ethereum: slice 4/8 done, 545309 ops so far, 689s
+ethereum: slice 5/8 done, 666187 ops so far, 1020s
+ethereum: slice 6/8 done, 793846 ops so far, 1020s
+ethereum: slice 7/8 done, 902267 ops so far, 1345s
+ethereum: slice 8/8 done, 1034182 ops so far, 1345s
+ethereum: DONE 1034182 userops in 1345s -> ./data/work/ethereum-userops.csv.gz

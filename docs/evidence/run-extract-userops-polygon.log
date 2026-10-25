@@ -1,0 +1,599 @@
+polygon: blocks 94335249-96063085, 48 slices, 8 workers
+polygon: slice 1/48 done, 128541 ops so far, 253s
+polygon: slice 2/48 done, 319435 ops so far, 286s
+polygon: slice 3/48 done, 454405 ops so far, 286s
+polygon: slice 4/48 done, 603670 ops so far, 286s
+polygon: slice 5/48 done, 852599 ops so far, 411s
+polygon: slice 6/48 done, 1065800 ops so far, 411s
+polygon: slice 7/48 done, 1283447 ops so far, 411s
+polygon: slice 8/48 done, 1482948 ops so far, 411s
+polygon: slice 9/48 done, 1625979 ops so far, 599s
+polygon: slice 10/48 done, 1800197 ops so far, 610s
+polygon: slice 11/48 done, 1932710 ops so far, 610s
+polygon: slice 12/48 done, 2048639 ops so far, 610s
+polygon: slice 13/48 done, 2218572 ops so far, 610s
+polygon: slice 14/48 done, 2355844 ops so far, 610s
+polygon: slice 15/48 done, 2507485 ops so far, 738s
+polygon: slice 16/48 done, 2758336 ops so far, 880s
+polygon: slice 17/48 done, 2924994 ops so far, 880s
+polygon: slice 18/48 done, 3150304 ops so far, 880s
+polygon: slice 19/48 done, 3323364 ops so far, 880s
+polygon: slice 20/48 done, 3514469 ops so far, 880s
+polygon: slice 21/48 done, 3690213 ops so far, 880s
+polygon: slice 22/48 done, 3813979 ops so far, 880s
+== resumed run 2026-10-25T03:57:12Z: workers 4, slices 48
+polygon: blocks 94335249-96063085, 48 slices, 4 workers
+polygon: slice 1/48 done, 128541 ops so far, 0s
+polygon: slice 2/48 done, 319435 ops so far, 0s
+polygon: slice 3/48 done, 454405 ops so far, 0s
+polygon: slice 4/48 done, 603670 ops so far, 0s
+polygon: slice 5/48 done, 852599 ops so far, 0s
+polygon: slice 6/48 done, 1065800 ops so far, 0s
+polygon: slice 7/48 done, 1283447 ops so far, 0s
+polygon: slice 8/48 done, 1482948 ops so far, 0s
+polygon: slice 9/48 done, 1625979 ops so far, 0s
+polygon: slice 10/48 done, 1800197 ops so far, 0s
+polygon: slice 11/48 done, 1932710 ops so far, 0s
+polygon: slice 12/48 done, 2048639 ops so far, 0s
+polygon: slice 13/48 done, 2218572 ops so far, 0s
+polygon: slice 14/48 done, 2355844 ops so far, 0s
+polygon: slice 15/48 done, 2507485 ops so far, 0s
+polygon: slice 16/48 done, 2758336 ops so far, 0s
+polygon: slice 17/48 done, 2924994 ops so far, 0s
+polygon: slice 18/48 done, 3150304 ops so far, 0s
+polygon: slice 19/48 done, 3323364 ops so far, 0s
+polygon: slice 20/48 done, 3514469 ops so far, 0s
+polygon: slice 21/48 done, 3690213 ops so far, 0s
+polygon: slice 22/48 done, 3813979 ops so far, 0s
+retry 1/20 polygon-mainnet from 95199177 after HTTP 529
+retry 1/20 polygon-mainnet from 95127183 after HTTP 529
+retry 1/20 polygon-mainnet from 95272434 after HTTP 529
+retry 1/20 polygon-mainnet from 95237985 after HTTP 529
+retry 1/20 polygon-mainnet from 95130673 after HTTP 529
+retry 1/20 polygon-mainnet from 95276058 after HTTP 529
+retry 1/20 polygon-mainnet from 95241948 after HTTP 529
+retry 1/20 polygon-mainnet from 95206151 after HTTP 529
+retry 2/20 polygon-mainnet from 95276058 after HTTP 529
+retry 2/20 polygon-mainnet from 95130673 after HTTP 529
+retry 2/20 polygon-mainnet from 95206151 after HTTP 529
+retry 1/20 polygon-mainnet from 95244172 after HTTP 529
+retry 1/20 polygon-mainnet from 95277182 after HTTP 529
+retry 1/20 polygon-mainnet from 95133978 after HTTP 529
+retry 1/20 polygon-mainnet from 95209270 after HTTP 529
+retry 1/20 polygon-mainnet from 95247420 after HTTP 529
+retry 1/20 polygon-mainnet from 95135240 after HTTP 529
+retry 1/20 polygon-mainnet from 95213819 after HTTP 529
+retry 1/20 polygon-mainnet from 95285919 after HTTP 529
+retry 1/20 polygon-mainnet from 95137672 after HTTP 529
+retry 1/20 polygon-mainnet from 95255189 after HTTP 529
+retry 2/20 polygon-mainnet from 95213819 after HTTP 529
+retry 1/20 polygon-mainnet from 95138757 after HTTP 529
+retry 3/20 polygon-mainnet from 95213819 after HTTP 529
+retry 1/20 polygon-mainnet from 95259527 after HTTP 529
+retry 1/20 polygon-mainnet from 95292223 after HTTP 529
+retry 1/20 polygon-mainnet from 95139792 after HTTP 529
+retry 1/20 polygon-mainnet from 95260572 after HTTP 529
+retry 2/20 polygon-mainnet from 95292223 after HTTP 529
+retry 2/20 polygon-mainnet from 95139792 after HTTP 529
+retry 1/20 polygon-mainnet from 95219069 after HTTP 529
+retry 2/20 polygon-mainnet from 95260572 after HTTP 529
+retry 1/20 polygon-mainnet from 95294015 after HTTP 529
+retry 3/20 polygon-mainnet from 95139792 after HTTP 529
+retry 2/20 polygon-mainnet from 95219069 after HTTP 529
+retry 1/20 polygon-mainnet from 95261660 after HTTP 529
+retry 2/20 polygon-mainnet from 95294015 after HTTP 529
+retry 4/20 polygon-mainnet from 95139792 after HTTP 529
+retry 1/20 polygon-mainnet from 95219994 after HTTP 529
+retry 1/20 polygon-mainnet from 95294954 after HTTP 529
+retry 1/20 polygon-mainnet from 95266337 after HTTP 529
+retry 1/20 polygon-mainnet from 95142936 after HTTP 529
+retry 1/20 polygon-mainnet from 95296795 after HTTP 529
+retry 2/20 polygon-mainnet from 95266337 after HTTP 529
+retry 2/20 polygon-mainnet from 95142936 after HTTP 529
+retry 1/20 polygon-mainnet from 95231474 after HTTP 529
+retry 3/20 polygon-mainnet from 95142936 after HTTP 529
+retry 3/20 polygon-mainnet from 95266337 after HTTP 529
+retry 1/20 polygon-mainnet from 95298933 after HTTP 529
+retry 2/20 polygon-mainnet from 95231474 after HTTP 529
+retry 4/20 polygon-mainnet from 95266337 after HTTP 529
+retry 1/20 polygon-mainnet from 95144608 after HTTP 529
+retry 1/20 polygon-mainnet from 95301010 after HTTP 529
+retry 3/20 polygon-mainnet from 95231474 after HTTP 529
+retry 2/20 polygon-mainnet from 95144608 after HTTP 529
+retry 1/20 polygon-mainnet from 95307168 after HTTP 529
+retry 1/20 polygon-mainnet from 95379162 after HTTP 529
+retry 1/20 polygon-mainnet from 95343996 after HTTP 529
+retry 1/20 polygon-mainnet from 95146424 after HTTP 529
+retry 2/20 polygon-mainnet from 95307168 after HTTP 529
+retry 1/20 polygon-mainnet from 95380283 after HTTP 529
+retry 2/20 polygon-mainnet from 95343996 after HTTP 529
+retry 1/20 polygon-mainnet from 95307959 after HTTP 529
+retry 3/20 polygon-mainnet from 95343996 after HTTP 529
+retry 1/20 polygon-mainnet from 95156090 after HTTP 529
+retry 1/20 polygon-mainnet from 95310102 after HTTP 529
+retry 2/20 polygon-mainnet from 95156090 after HTTP 529
+retry 1/20 polygon-mainnet from 95345837 after HTTP 529
+retry 1/20 polygon-mainnet from 95393705 after HTTP 529
+retry 1/20 polygon-mainnet from 95311055 after HTTP 529
+retry 2/20 polygon-mainnet from 95345837 after HTTP 529
+retry 2/20 polygon-mainnet from 95393705 after HTTP 529
+retry 1/20 polygon-mainnet from 95158476 after HTTP 529
+retry 2/20 polygon-mainnet from 95311055 after HTTP 529
+retry 3/20 polygon-mainnet from 95393705 after HTTP 529
+retry 1/20 polygon-mainnet from 95159641 after HTTP 529
+retry 1/20 polygon-mainnet from 95352633 after HTTP 529
+retry 1/20 polygon-mainnet from 95312954 after HTTP 529
+retry 1/20 polygon-mainnet from 95396063 after HTTP 529
+retry 2/20 polygon-mainnet from 95159641 after HTTP 529
+retry 2/20 polygon-mainnet from 95352633 after HTTP 529
+retry 2/20 polygon-mainnet from 95312954 after HTTP 529
+retry 3/20 polygon-mainnet from 95159641 after HTTP 529
+retry 1/20 polygon-mainnet from 95400786 after HTTP 529
+retry 3/20 polygon-mainnet from 95352633 after HTTP 529
+retry 4/20 polygon-mainnet from 95159641 after HTTP 529
+retry 1/20 polygon-mainnet from 95316869 after HTTP 529
+retry 1/20 polygon-mainnet from 95403884 after HTTP 529
+retry 1/20 polygon-mainnet from 95358399 after HTTP 529
+retry 1/20 polygon-mainnet from 95160767 after HTTP 529
+retry 1/20 polygon-mainnet from 95317899 after HTTP 529
+retry 1/20 polygon-mainnet from 95405815 after HTTP 529
+retry 2/20 polygon-mainnet from 95358399 after HTTP 529
+retry 2/20 polygon-mainnet from 95160767 after HTTP 529
+retry 1/20 polygon-mainnet from 95318958 after HTTP 529
+retry 3/20 polygon-mainnet from 95358399 after HTTP 529
+retry 1/20 polygon-mainnet from 95407863 after HTTP 529
+retry 3/20 polygon-mainnet from 95160767 after HTTP 529
+retry 1/20 polygon-mainnet from 95320829 after HTTP 529
+retry 2/20 polygon-mainnet from 95407863 after HTTP 529
+retry 1/20 polygon-mainnet from 95359461 after HTTP 529
+retry 1/20 polygon-mainnet from 95161868 after HTTP 529
+retry 2/20 polygon-mainnet from 95359461 after HTTP 529
+retry 3/20 polygon-mainnet from 95407863 after HTTP 529
+retry 1/20 polygon-mainnet from 95326916 after HTTP 529
+polygon: slice 23/48 done, 3952127 ops so far, 381s
+polygon: slice 24/48 done, 4092588 ops so far, 381s
+polygon: slice 25/48 done, 4217260 ops so far, 381s
+polygon: slice 26/48 done, 4408959 ops so far, 381s
+polygon: slice 27/48 done, 4689199 ops so far, 381s
+retry 1/20 polygon-mainnet from 95416182 after HTTP 529
+retry 4/20 polygon-mainnet from 95407863 after HTTP 529
+retry 3/20 polygon-mainnet from 95359461 after HTTP 529
+retry 1/20 polygon-mainnet from 95328129 after HTTP 529
+retry 2/20 polygon-mainnet from 95416182 after HTTP 529
+retry 5/20 polygon-mainnet from 95407863 after HTTP 529
+retry 2/20 polygon-mainnet from 95328129 after HTTP 529
+retry 4/20 polygon-mainnet from 95359461 after HTTP 529
+retry 3/20 polygon-mainnet from 95416182 after HTTP 529
+retry 1/20 polygon-mainnet from 95329428 after HTTP 529
+retry 6/20 polygon-mainnet from 95407863 after HTTP 529
+retry 1/20 polygon-mainnet from 95360547 after HTTP 529
+retry 4/20 polygon-mainnet from 95416182 after HTTP 529
+retry 1/20 polygon-mainnet from 95330777 after HTTP 529
+retry 1/20 polygon-mainnet from 95409947 after HTTP 529
+retry 2/20 polygon-mainnet from 95360547 after HTTP 529
+retry 1/20 polygon-mainnet from 95331968 after HTTP 529
+retry 1/20 polygon-mainnet from 95419652 after HTTP 529
+retry 1/20 polygon-mainnet from 95362794 after HTTP 529
+retry 1/20 polygon-mainnet from 95412184 after HTTP 529
+retry 2/20 polygon-mainnet from 95419652 after HTTP 529
+retry 1/20 polygon-mainnet from 95333244 after HTTP 529
+retry 1/20 polygon-mainnet from 95363836 after HTTP 529
+retry 1/20 polygon-mainnet from 95414565 after HTTP 529
+retry 1/20 polygon-mainnet from 95420821 after HTTP 529
+retry 1/20 polygon-mainnet from 95336543 after HTTP 529
+retry 1/20 polygon-mainnet from 95365000 after HTTP 529
+retry 2/20 polygon-mainnet from 95420821 after HTTP 529
+retry 1/20 polygon-mainnet from 95454146 after HTTP 529
+retry 2/20 polygon-mainnet from 95336543 after HTTP 529
+retry 2/20 polygon-mainnet from 95365000 after HTTP 529
+retry 1/20 polygon-mainnet from 95422028 after HTTP 529
+retry 1/20 polygon-mainnet from 95337648 after HTTP 529
+retry 2/20 polygon-mainnet from 95454146 after HTTP 529
+retry 1/20 polygon-mainnet from 95366197 after HTTP 529
+retry 2/20 polygon-mainnet from 95422028 after HTTP 529
+retry 1/20 polygon-mainnet from 95339990 after HTTP 529
+retry 2/20 polygon-mainnet from 95366197 after HTTP 529
+retry 3/20 polygon-mainnet from 95422028 after HTTP 529
+retry 1/20 polygon-mainnet from 95461471 after HTTP 529
+retry 1/20 polygon-mainnet from 95341074 after HTTP 529
+retry 3/20 polygon-mainnet from 95366197 after HTTP 529
+retry 2/20 polygon-mainnet from 95461471 after HTTP 529
+retry 1/20 polygon-mainnet from 95423122 after HTTP 529
+retry 2/20 polygon-mainnet from 95341074 after HTTP 529
+retry 4/20 polygon-mainnet from 95366197 after HTTP 529
+retry 1/20 polygon-mainnet from 95424393 after HTTP 529
+retry 1/20 polygon-mainnet from 95464234 after HTTP 529
+retry 1/20 polygon-mainnet from 95342182 after HTTP 529
+retry 1/20 polygon-mainnet from 95369947 after HTTP 529
+retry 1/20 polygon-mainnet from 95426827 after HTTP 529
+retry 1/20 polygon-mainnet from 95465240 after HTTP 529
+retry 2/20 polygon-mainnet from 95342182 after HTTP 529
+retry 1/20 polygon-mainnet from 95373208 after HTTP 529
+retry 1/20 polygon-mainnet from 95468371 after HTTP 529
+retry 1/20 polygon-mainnet from 95429809 after HTTP 529
+retry 3/20 polygon-mainnet from 95342182 after HTTP 529
+retry 2/20 polygon-mainnet from 95468371 after HTTP 529
+retry 2/20 polygon-mainnet from 95373208 after HTTP 529
+retry 1/20 polygon-mainnet from 95432819 after HTTP 529
+polygon: slice 28/48 done, 4959380 ops so far, 584s
+retry 1/20 polygon-mainnet from 95487153 after HTTP 529
+retry 1/20 polygon-mainnet from 95375228 after HTTP 529
+retry 1/20 polygon-mainnet from 95471642 after HTTP 529
+retry 1/20 polygon-mainnet from 95433897 after HTTP 529
+retry 2/20 polygon-mainnet from 95487153 after HTTP 529
+retry 2/20 polygon-mainnet from 95375228 after HTTP 529
+retry 2/20 polygon-mainnet from 95433897 after HTTP 529
+retry 1/20 polygon-mainnet from 95490570 after HTTP 529
+retry 1/20 polygon-mainnet from 95475005 after HTTP 529
+retry 3/20 polygon-mainnet from 95433897 after HTTP 529
+polygon: slice 29/48 done, 5272867 ops so far, 616s
+polygon: slice 30/48 done, 5423834 ops so far, 616s
+retry 1/20 polygon-mainnet from 95524191 after HTTP 529
+retry 1/20 polygon-mainnet from 95475968 after HTTP 529
+retry 1/20 polygon-mainnet from 95493905 after HTTP 529
+retry 4/20 polygon-mainnet from 95433897 after HTTP 529
+retry 1/20 polygon-mainnet from 95525276 after HTTP 529
+retry 2/20 polygon-mainnet from 95475968 after HTTP 529
+retry 1/20 polygon-mainnet from 95495078 after HTTP 529
+retry 1/20 polygon-mainnet from 95434909 after HTTP 529
+retry 1/20 polygon-mainnet from 95527286 after HTTP 529
+retry 1/20 polygon-mainnet from 95496267 after HTTP 529
+retry 1/20 polygon-mainnet from 95479429 after HTTP 529
+retry 2/20 polygon-mainnet from 95527286 after HTTP 529
+retry 1/20 polygon-mainnet from 95438332 after HTTP 529
+retry 2/20 polygon-mainnet from 95496267 after HTTP 529
+retry 1/20 polygon-mainnet from 95480619 after HTTP 529
+retry 3/20 polygon-mainnet from 95527286 after HTTP 529
+retry 2/20 polygon-mainnet from 95438332 after HTTP 529
+retry 4/20 polygon-mainnet from 95527286 after HTTP 529
+retry 1/20 polygon-mainnet from 95500070 after HTTP 529
+retry 1/20 polygon-mainnet from 95484132 after HTTP 529
+retry 1/20 polygon-mainnet from 95443290 after HTTP 529
+retry 1/20 polygon-mainnet from 95528374 after HTTP 529
+retry 2/20 polygon-mainnet from 95484132 after HTTP 529
+retry 1/20 polygon-mainnet from 95502499 after HTTP 529
+retry 1/20 polygon-mainnet from 95444482 after HTTP 529
+retry 2/20 polygon-mainnet from 95528374 after HTTP 529
+retry 1/20 polygon-mainnet from 95485347 after HTTP 529
+retry 1/20 polygon-mainnet from 95507140 after HTTP 529
+retry 1/20 polygon-mainnet from 95529578 after HTTP 529
+retry 1/20 polygon-mainnet from 95449995 after HTTP 529
+retry 2/20 polygon-mainnet from 95485347 after HTTP 529
+retry 2/20 polygon-mainnet from 95529578 after HTTP 529
+polygon: slice 31/48 done, 5606153 ops so far, 735s
+retry 1/20 polygon-mainnet from 95511723 after HTTP 529
+retry 1/20 polygon-mainnet from 95561561 after HTTP 529
+retry 1/20 polygon-mainnet from 95486788 after HTTP 529
+retry 3/20 polygon-mainnet from 95529578 after HTTP 529
+retry 2/20 polygon-mainnet from 95511723 after HTTP 529
+retry 2/20 polygon-mainnet from 95561561 after HTTP 529
+retry 2/20 polygon-mainnet from 95486788 after HTTP 529
+retry 1/20 polygon-mainnet from 95512912 after HTTP 529
+retry 3/20 polygon-mainnet from 95561561 after HTTP 529
+retry 3/20 polygon-mainnet from 95486788 after HTTP 529
+retry 1/20 polygon-mainnet from 95533963 after HTTP 529
+polygon: slice 32/48 done, 5805805 ops so far, 775s
+retry 1/20 polygon-mainnet from 95562724 after HTTP 529
+retry 1/20 polygon-mainnet from 95595144 after HTTP 529
+retry 1/20 polygon-mainnet from 95516068 after HTTP 529
+retry 1/20 polygon-mainnet from 95537233 after HTTP 529
+retry 2/20 polygon-mainnet from 95595144 after HTTP 529
+retry 2/20 polygon-mainnet from 95562724 after HTTP 529
+retry 1/20 polygon-mainnet from 95517730 after HTTP 529
+retry 1/20 polygon-mainnet from 95538258 after HTTP 529
+retry 3/20 polygon-mainnet from 95595144 after HTTP 529
+retry 1/20 polygon-mainnet from 95563951 after HTTP 529
+retry 2/20 polygon-mainnet from 95517730 after HTTP 529
+retry 1/20 polygon-mainnet from 95540590 after HTTP 529
+retry 1/20 polygon-mainnet from 95596217 after HTTP 529
+retry 1/20 polygon-mainnet from 95566255 after HTTP 529
+retry 3/20 polygon-mainnet from 95517730 after HTTP 529
+retry 2/20 polygon-mainnet from 95540590 after HTTP 529
+retry 1/20 polygon-mainnet from 95597489 after HTTP 529
+retry 1/20 polygon-mainnet from 95518587 after HTTP 529
+retry 3/20 polygon-mainnet from 95540590 after HTTP 529
+retry 1/20 polygon-mainnet from 95569540 after HTTP 529
+retry 2/20 polygon-mainnet from 95597489 after HTTP 529
+retry 1/20 polygon-mainnet from 95571801 after HTTP 529
+retry 3/20 polygon-mainnet from 95597489 after HTTP 529
+retry 1/20 polygon-mainnet from 95523042 after HTTP 529
+retry 1/20 polygon-mainnet from 95546346 after HTTP 529
+retry 2/20 polygon-mainnet from 95571801 after HTTP 529
+polygon: slice 33/48 done, 5925281 ops so far, 862s
+retry 1/20 polygon-mainnet from 95632068 after HTTP 529
+retry 1/20 polygon-mainnet from 95598859 after HTTP 529
+retry 1/20 polygon-mainnet from 95547295 after HTTP 529
+retry 3/20 polygon-mainnet from 95571801 after HTTP 529
+retry 1/20 polygon-mainnet from 95633150 after HTTP 529
+retry 1/20 polygon-mainnet from 95548393 after HTTP 529
+retry 1/20 polygon-mainnet from 95603266 after HTTP 529
+retry 1/20 polygon-mainnet from 95574832 after HTTP 529
+retry 2/20 polygon-mainnet from 95548393 after HTTP 529
+retry 1/20 polygon-mainnet from 95604305 after HTTP 529
+retry 1/20 polygon-mainnet from 95637299 after HTTP 529
+retry 2/20 polygon-mainnet from 95574832 after HTTP 529
+retry 2/20 polygon-mainnet from 95604305 after HTTP 529
+retry 1/20 polygon-mainnet from 95549428 after HTTP 529
+retry 2/20 polygon-mainnet from 95637299 after HTTP 529
+retry 3/20 polygon-mainnet from 95574832 after HTTP 529
+retry 2/20 polygon-mainnet from 95549428 after HTTP 529
+retry 1/20 polygon-mainnet from 95606425 after HTTP 529
+retry 3/20 polygon-mainnet from 95637299 after HTTP 529
+retry 1/20 polygon-mainnet from 95575723 after HTTP 529
+retry 2/20 polygon-mainnet from 95606425 after HTTP 529
+retry 4/20 polygon-mainnet from 95637299 after HTTP 529
+retry 2/20 polygon-mainnet from 95575723 after HTTP 529
+retry 1/20 polygon-mainnet from 95556341 after HTTP 529
+retry 1/20 polygon-mainnet from 95607369 after HTTP 529
+retry 1/20 polygon-mainnet from 95638391 after HTTP 529
+retry 2/20 polygon-mainnet from 95556341 after HTTP 529
+retry 1/20 polygon-mainnet from 95578387 after HTTP 529
+retry 2/20 polygon-mainnet from 95607369 after HTTP 529
+retry 1/20 polygon-mainnet from 95639517 after HTTP 529
+retry 2/20 polygon-mainnet from 95578387 after HTTP 529
+retry 1/20 polygon-mainnet from 95557496 after HTTP 529
+retry 3/20 polygon-mainnet from 95607369 after HTTP 529
+retry 1/20 polygon-mainnet from 95642907 after HTTP 529
+polygon: slice 34/48 done, 6152293 ops so far, 983s
+retry 1/20 polygon-mainnet from 95581135 after HTTP 529
+retry 1/20 polygon-mainnet from 95667138 after HTTP 529
+retry 1/20 polygon-mainnet from 95612075 after HTTP 529
+retry 1/20 polygon-mainnet from 95581972 after HTTP 529
+retry 2/20 polygon-mainnet from 95612075 after HTTP 529
+retry 1/20 polygon-mainnet from 95671282 after HTTP 529
+retry 2/20 polygon-mainnet from 95581972 after HTTP 529
+retry 3/20 polygon-mainnet from 95612075 after HTTP 529
+retry 1/20 polygon-mainnet from 95658710 after HTTP 529
+retry 2/20 polygon-mainnet from 95671282 after HTTP 529
+retry 1/20 polygon-mainnet from 95582879 after HTTP 529
+retry 1/20 polygon-mainnet from 95613433 after HTTP 529
+retry 3/20 polygon-mainnet from 95671282 after HTTP 529
+retry 1/20 polygon-mainnet from 95661915 after HTTP 529
+retry 2/20 polygon-mainnet from 95582879 after HTTP 529
+retry 1/20 polygon-mainnet from 95617301 after HTTP 529
+retry 1/20 polygon-mainnet from 95664264 after HTTP 529
+retry 1/20 polygon-mainnet from 95675378 after HTTP 529
+retry 3/20 polygon-mainnet from 95582879 after HTTP 529
+retry 1/20 polygon-mainnet from 95618594 after HTTP 529
+retry 2/20 polygon-mainnet from 95664264 after HTTP 529
+retry 4/20 polygon-mainnet from 95582879 after HTTP 529
+retry 1/20 polygon-mainnet from 95679015 after HTTP 529
+retry 3/20 polygon-mainnet from 95664264 after HTTP 529
+retry 1/20 polygon-mainnet from 95622097 after HTTP 529
+retry 1/20 polygon-mainnet from 95587927 after HTTP 529
+retry 4/20 polygon-mainnet from 95664264 after HTTP 529
+retry 1/20 polygon-mainnet from 95684790 after HTTP 529
+retry 2/20 polygon-mainnet from 95622097 after HTTP 529
+retry 5/20 polygon-mainnet from 95664264 after HTTP 529
+retry 3/20 polygon-mainnet from 95622097 after HTTP 529
+retry 1/20 polygon-mainnet from 95686969 after HTTP 529
+retry 1/20 polygon-mainnet from 95593002 after HTTP 529
+retry 1/20 polygon-mainnet from 95665561 after HTTP 529
+retry 2/20 polygon-mainnet from 95686969 after HTTP 529
+retry 2/20 polygon-mainnet from 95593002 after HTTP 529
+retry 1/20 polygon-mainnet from 95624501 after HTTP 529
+retry 1/20 polygon-mainnet from 95689093 after HTTP 529
+polygon: slice 35/48 done, 6371060 ops so far, 1122s
+retry 1/20 polygon-mainnet from 95704145 after HTTP 529
+retry 1/20 polygon-mainnet from 95626991 after HTTP 529
+retry 1/20 polygon-mainnet from 95741354 after HTTP 529
+retry 1/20 polygon-mainnet from 95690011 after HTTP 529
+retry 1/20 polygon-mainnet from 95629419 after HTTP 529
+retry 1/20 polygon-mainnet from 95744966 after HTTP 529
+retry 1/20 polygon-mainnet from 95708958 after HTTP 529
+retry 2/20 polygon-mainnet from 95629419 after HTTP 529
+retry 1/20 polygon-mainnet from 95693662 after HTTP 529
+retry 2/20 polygon-mainnet from 95708958 after HTTP 529
+retry 1/20 polygon-mainnet from 95750947 after HTTP 529
+retry 2/20 polygon-mainnet from 95693662 after HTTP 529
+polygon: slice 36/48 done, 6522157 ops so far, 1169s
+polygon: slice 37/48 done, 6700674 ops so far, 1169s
+retry 1/20 polygon-mainnet from 95775129 after HTTP 529
+retry 1/20 polygon-mainnet from 95713041 after HTTP 529
+retry 2/20 polygon-mainnet from 95750947 after HTTP 529
+retry 1/20 polygon-mainnet from 95695612 after HTTP 529
+retry 1/20 polygon-mainnet from 95778896 after HTTP 529
+retry 1/20 polygon-mainnet from 95714174 after HTTP 529
+retry 2/20 polygon-mainnet from 95695612 after HTTP 529
+retry 1/20 polygon-mainnet from 95757481 after HTTP 529
+retry 1/20 polygon-mainnet from 95784429 after HTTP 529
+retry 1/20 polygon-mainnet from 95717541 after HTTP 529
+retry 1/20 polygon-mainnet from 95698139 after HTTP 529
+retry 1/20 polygon-mainnet from 95760251 after HTTP 529
+retry 1/20 polygon-mainnet from 95785779 after HTTP 529
+retry 2/20 polygon-mainnet from 95717541 after HTTP 529
+retry 1/20 polygon-mainnet from 95761314 after HTTP 529
+retry 1/20 polygon-mainnet from 95701838 after HTTP 529
+retry 1/20 polygon-mainnet from 95789962 after HTTP 529
+retry 1/20 polygon-mainnet from 95719934 after HTTP 529
+retry 2/20 polygon-mainnet from 95761314 after HTTP 529
+polygon: slice 38/48 done, 6947912 ops so far, 1248s
+retry 1/20 polygon-mainnet from 95811126 after HTTP 529
+retry 1/20 polygon-mainnet from 95793714 after HTTP 529
+retry 1/20 polygon-mainnet from 95724563 after HTTP 529
+retry 1/20 polygon-mainnet from 95763541 after HTTP 529
+retry 2/20 polygon-mainnet from 95811126 after HTTP 529
+retry 1/20 polygon-mainnet from 95794980 after HTTP 529
+retry 2/20 polygon-mainnet from 95763541 after HTTP 529
+retry 3/20 polygon-mainnet from 95811126 after HTTP 529
+retry 1/20 polygon-mainnet from 95728350 after HTTP 529
+retry 2/20 polygon-mainnet from 95794980 after HTTP 529
+retry 3/20 polygon-mainnet from 95763541 after HTTP 529
+retry 4/20 polygon-mainnet from 95811126 after HTTP 529
+retry 2/20 polygon-mainnet from 95728350 after HTTP 529
+retry 4/20 polygon-mainnet from 95763541 after HTTP 529
+retry 1/20 polygon-mainnet from 95798949 after HTTP 529
+retry 5/20 polygon-mainnet from 95811126 after HTTP 529
+retry 3/20 polygon-mainnet from 95728350 after HTTP 529
+retry 1/20 polygon-mainnet from 95765545 after HTTP 529
+retry 2/20 polygon-mainnet from 95798949 after HTTP 529
+retry 1/20 polygon-mainnet from 95813144 after HTTP 529
+retry 1/20 polygon-mainnet from 95733665 after HTTP 529
+retry 2/20 polygon-mainnet from 95765545 after HTTP 529
+retry 3/20 polygon-mainnet from 95798949 after HTTP 529
+retry 1/20 polygon-mainnet from 95817692 after HTTP 529
+retry 3/20 polygon-mainnet from 95765545 after HTTP 529
+retry 1/20 polygon-mainnet from 95736222 after HTTP 529
+retry 4/20 polygon-mainnet from 95798949 after HTTP 529
+retry 4/20 polygon-mainnet from 95765545 after HTTP 529
+retry 1/20 polygon-mainnet from 95819030 after HTTP 529
+polygon: slice 39/48 done, 7285615 ops so far, 1345s
+retry 1/20 polygon-mainnet from 95849543 after HTTP 529
+retry 1/20 polygon-mainnet from 95804763 after HTTP 529
+retry 2/20 polygon-mainnet from 95819030 after HTTP 529
+retry 1/20 polygon-mainnet from 95769932 after HTTP 529
+retry 2/20 polygon-mainnet from 95804763 after HTTP 529
+retry 1/20 polygon-mainnet from 95851872 after HTTP 529
+retry 3/20 polygon-mainnet from 95819030 after HTTP 529
+retry 1/20 polygon-mainnet from 95771043 after HTTP 529
+retry 3/20 polygon-mainnet from 95804763 after HTTP 529
+retry 1/20 polygon-mainnet from 95853012 after HTTP 529
+retry 2/20 polygon-mainnet from 95771043 after HTTP 529
+retry 1/20 polygon-mainnet from 95822763 after HTTP 529
+retry 4/20 polygon-mainnet from 95804763 after HTTP 529
+retry 2/20 polygon-mainnet from 95853012 after HTTP 529
+retry 2/20 polygon-mainnet from 95822763 after HTTP 529
+retry 5/20 polygon-mainnet from 95804763 after HTTP 529
+polygon: slice 40/48 done, 7612745 ops so far, 1400s
+retry 1/20 polygon-mainnet from 95886150 after HTTP 529
+retry 1/20 polygon-mainnet from 95859060 after HTTP 529
+retry 1/20 polygon-mainnet from 95824105 after HTTP 529
+retry 1/20 polygon-mainnet from 95810907 after HTTP 529
+retry 2/20 polygon-mainnet from 95886150 after HTTP 529
+retry 1/20 polygon-mainnet from 95861492 after HTTP 529
+retry 1/20 polygon-mainnet from 95828118 after HTTP 529
+retry 2/20 polygon-mainnet from 95810907 after HTTP 529
+retry 1/20 polygon-mainnet from 95890638 after HTTP 529
+retry 1/20 polygon-mainnet from 95862406 after HTTP 529
+retry 3/20 polygon-mainnet from 95810907 after HTTP 529
+retry 1/20 polygon-mainnet from 95891781 after HTTP 529
+retry 1/20 polygon-mainnet from 95863377 after HTTP 529
+polygon: slice 41/48 done, 7739395 ops so far, 1453s
+retry 1/20 polygon-mainnet from 95919117 after HTTP 529
+retry 2/20 polygon-mainnet from 95891781 after HTTP 529
+retry 1/20 polygon-mainnet from 95845709 after HTTP 529
+retry 1/20 polygon-mainnet from 95865467 after HTTP 529
+retry 1/20 polygon-mainnet from 95919892 after HTTP 529
+retry 3/20 polygon-mainnet from 95891781 after HTTP 529
+retry 1/20 polygon-mainnet from 95866406 after HTTP 529
+polygon: slice 42/48 done, 7943634 ops so far, 1477s
+retry 1/20 polygon-mainnet from 95955114 after HTTP 529
+retry 2/20 polygon-mainnet from 95919892 after HTTP 529
+retry 1/20 polygon-mainnet from 95893035 after HTTP 529
+retry 3/20 polygon-mainnet from 95919892 after HTTP 529
+retry 2/20 polygon-mainnet from 95866406 after HTTP 529
+retry 1/20 polygon-mainnet from 95956294 after HTTP 529
+retry 3/20 polygon-mainnet from 95866406 after HTTP 529
+retry 1/20 polygon-mainnet from 95921754 after HTTP 529
+retry 1/20 polygon-mainnet from 95960509 after HTTP 529
+retry 4/20 polygon-mainnet from 95866406 after HTTP 529
+retry 1/20 polygon-mainnet from 95904298 after HTTP 529
+retry 2/20 polygon-mainnet from 95921754 after HTTP 529
+retry 2/20 polygon-mainnet from 95960509 after HTTP 529
+retry 5/20 polygon-mainnet from 95866406 after HTTP 529
+retry 1/20 polygon-mainnet from 95905634 after HTTP 529
+retry 3/20 polygon-mainnet from 95960509 after HTTP 529
+retry 1/20 polygon-mainnet from 95923631 after HTTP 529
+retry 1/20 polygon-mainnet from 95867288 after HTTP 529
+retry 2/20 polygon-mainnet from 95905634 after HTTP 529
+retry 1/20 polygon-mainnet from 95961929 after HTTP 529
+retry 2/20 polygon-mainnet from 95867288 after HTTP 529
+retry 3/20 polygon-mainnet from 95905634 after HTTP 529
+retry 1/20 polygon-mainnet from 95930549 after HTTP 529
+retry 1/20 polygon-mainnet from 95964523 after HTTP 529
+retry 1/20 polygon-mainnet from 95868275 after HTTP 529
+retry 4/20 polygon-mainnet from 95905634 after HTTP 529
+retry 2/20 polygon-mainnet from 95930549 after HTTP 529
+retry 2/20 polygon-mainnet from 95868275 after HTTP 529
+retry 1/20 polygon-mainnet from 95965645 after HTTP 529
+retry 1/20 polygon-mainnet from 95906977 after HTTP 529
+retry 1/20 polygon-mainnet from 95931691 after HTTP 529
+retry 3/20 polygon-mainnet from 95868275 after HTTP 529
+retry 1/20 polygon-mainnet from 95909378 after HTTP 529
+retry 1/20 polygon-mainnet from 95971642 after HTTP 529
+retry 4/20 polygon-mainnet from 95868275 after HTTP 529
+retry 1/20 polygon-mainnet from 95933997 after HTTP 529
+retry 1/20 polygon-mainnet from 95972948 after HTTP 529
+retry 1/20 polygon-mainnet from 95911674 after HTTP 529
+retry 1/20 polygon-mainnet from 95935018 after HTTP 529
+retry 1/20 polygon-mainnet from 95870265 after HTTP 529
+retry 1/20 polygon-mainnet from 95974187 after HTTP 529
+retry 1/20 polygon-mainnet from 95913950 after HTTP 529
+retry 1/20 polygon-mainnet from 95937968 after HTTP 529
+retry 1/20 polygon-mainnet from 95872246 after HTTP 529
+retry 2/20 polygon-mainnet from 95974187 after HTTP 529
+retry 2/20 polygon-mainnet from 95937968 after HTTP 529
+retry 1/20 polygon-mainnet from 95917371 after HTTP 529
+retry 1/20 polygon-mainnet from 95873377 after HTTP 529
+retry 1/20 polygon-mainnet from 95979692 after HTTP 529
+retry 1/20 polygon-mainnet from 95918446 after HTTP 529
+retry 1/20 polygon-mainnet from 95940107 after HTTP 529
+retry 2/20 polygon-mainnet from 95918446 after HTTP 529
+retry 1/20 polygon-mainnet from 95941206 after HTTP 529
+retry 1/20 polygon-mainnet from 95982629 after HTTP 529
+retry 1/20 polygon-mainnet from 95882909 after HTTP 529
+retry 1/20 polygon-mainnet from 95992057 after HTTP 529
+retry 1/20 polygon-mainnet from 95943225 after HTTP 529
+polygon: slice 43/48 done, 8131259 ops so far, 1685s
+polygon: slice 44/48 done, 8294405 ops so far, 1685s
+retry 1/20 polygon-mainnet from 95984570 after HTTP 529
+retry 1/20 polygon-mainnet from 96028350 after HTTP 529
+retry 1/20 polygon-mainnet from 95992924 after HTTP 529
+retry 2/20 polygon-mainnet from 95943225 after HTTP 529
+retry 2/20 polygon-mainnet from 95984570 after HTTP 529
+retry 1/20 polygon-mainnet from 96034549 after HTTP 529
+retry 2/20 polygon-mainnet from 95992924 after HTTP 529
+retry 3/20 polygon-mainnet from 95984570 after HTTP 529
+retry 1/20 polygon-mainnet from 95993989 after HTTP 529
+polygon: slice 45/48 done, 8480717 ops so far, 1722s
+retry 1/20 polygon-mainnet from 96039145 after HTTP 529
+retry 1/20 polygon-mainnet from 95986559 after HTTP 529
+retry 1/20 polygon-mainnet from 96041056 after HTTP 529
+retry 1/20 polygon-mainnet from 95997602 after HTTP 529
+retry 1/20 polygon-mainnet from 95987501 after HTTP 529
+retry 1/20 polygon-mainnet from 95998510 after HTTP 529
+retry 1/20 polygon-mainnet from 95989562 after HTTP 529
+retry 1/20 polygon-mainnet from 96046423 after HTTP 529
+retry 1/20 polygon-mainnet from 96001349 after HTTP 529
+retry 1/20 polygon-mainnet from 95990677 after HTTP 529
+retry 2/20 polygon-mainnet from 96046423 after HTTP 529
+polygon: slice 46/48 done, 8622140 ops so far, 1782s
+retry 1/20 polygon-mainnet from 96002851 after HTTP 529
+retry 1/20 polygon-mainnet from 96047244 after HTTP 529
+retry 1/20 polygon-mainnet from 96006398 after HTTP 529
+retry 2/20 polygon-mainnet from 96047244 after HTTP 529
+retry 2/20 polygon-mainnet from 96006398 after HTTP 529
+retry 3/20 polygon-mainnet from 96047244 after HTTP 529
+retry 3/20 polygon-mainnet from 96006398 after HTTP 529
+retry 1/20 polygon-mainnet from 96008811 after HTTP 529
+retry 1/20 polygon-mainnet from 96054538 after HTTP 529
+retry 2/20 polygon-mainnet from 96008811 after HTTP 529
+retry 1/20 polygon-mainnet from 96056011 after HTTP 529
+retry 3/20 polygon-mainnet from 96008811 after HTTP 529
+retry 1/20 polygon-mainnet from 96056851 after HTTP 529
+retry 4/20 polygon-mainnet from 96008811 after HTTP 529
+retry 2/20 polygon-mainnet from 96056851 after HTTP 529
+retry 1/20 polygon-mainnet from 96010067 after HTTP 529
+retry 3/20 polygon-mainnet from 96056851 after HTTP 529
+retry 2/20 polygon-mainnet from 96010067 after HTTP 529
+retry 4/20 polygon-mainnet from 96056851 after HTTP 529
+retry 3/20 polygon-mainnet from 96010067 after HTTP 529
+retry 4/20 polygon-mainnet from 96010067 after HTTP 529
+retry 1/20 polygon-mainnet from 96060934 after HTTP 529
+retry 5/20 polygon-mainnet from 96010067 after HTTP 529
+retry 1/20 polygon-mainnet from 96063085 after HTTP 529
+retry 1/20 polygon-mainnet from 96015150 after HTTP 529
+retry 2/20 polygon-mainnet from 96015150 after HTTP 529
+retry 3/20 polygon-mainnet from 96015150 after HTTP 529
+retry 1/20 polygon-mainnet from 96016583 after HTTP 529
+retry 2/20 polygon-mainnet from 96016583 after HTTP 529
+retry 1/20 polygon-mainnet from 96017827 after HTTP 529
+retry 1/20 polygon-mainnet from 96021894 after HTTP 529
+retry 2/20 polygon-mainnet from 96021894 after HTTP 529
+retry 1/20 polygon-mainnet from 96023215 after HTTP 529
+retry 1/20 polygon-mainnet from 96024595 after HTTP 529
+retry 1/20 polygon-mainnet from 96025875 after HTTP 529
+retry 2/20 polygon-mainnet from 96025875 after HTTP 529
+polygon: slice 47/48 done, 8818305 ops so far, 2103s
+polygon: slice 48/48 done, 9008896 ops so far, 2103s
+polygon: DONE 9008896 userops in 2104s -> ./data/work/polygon-userops.csv.gz

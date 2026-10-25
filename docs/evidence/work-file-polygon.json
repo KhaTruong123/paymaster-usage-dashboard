@@ -1,0 +1,7 @@
+{
+  "file": "data/work/polygon-userops.csv.gz",
+  "sha256": "d5b5b9bc92b0751cfdaa20dda896e97bb840090cd371aa0eeb16cbd8d572ea97",
+  "userop_rows": 9008896,
+  "distinct_senders_window": 322632,
+  "note": "Not committed (size). Rebuild with scripts/extract_userops.py; per-response hashes in docs/evidence/portal-responses-userops-polygon.csv."
+}

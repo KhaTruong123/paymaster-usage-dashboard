@@ -1,0 +1,12 @@
+chain,address,symbol,issuer,source_url,note
+ethereum,0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,USDC,Circle,https://developers.circle.com/stablecoins/usdc-contract-addresses,native USDC
+base,0x833589fcd6edb6e08f4c7c32d4f71b54bda02913,USDC,Circle,https://developers.circle.com/stablecoins/usdc-contract-addresses,native USDC
+arbitrum,0xaf88d065e77c8cc2239327c5edb3a432268e5831,USDC,Circle,https://developers.circle.com/stablecoins/usdc-contract-addresses,native USDC
+optimism,0x0b2c639c533813f4aa9d7837caf62653d097ff85,USDC,Circle,https://developers.circle.com/stablecoins/usdc-contract-addresses,native USDC
+polygon,0x3c499c542cef5e3811e1192ce70d8cc03d5c3359,USDC,Circle,https://developers.circle.com/stablecoins/usdc-contract-addresses,native USDC
+ethereum,0x1abaea1f7c830bd89acc67ec4af516284b1bc33c,EURC,Circle,https://developers.circle.com/stablecoins/eurc-contract-addresses,euro stablecoin
+base,0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42,EURC,Circle,https://developers.circle.com/stablecoins/eurc-contract-addresses,euro stablecoin
+arbitrum,0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9,USDT0,USDT0 (Tether),https://docs.usdt0.to/technical-documentation/deployments,USDT0 token on Arbitrum One
+optimism,0x01bff41798a0bcf287b996046ca68b395dbc1071,USDT0,USDT0 (Tether),https://docs.usdt0.to/technical-documentation/deployments,USDT0 token on OP Mainnet
+polygon,0xc2132d05d31c914a87c6611c10748aeb04b58e8f,USDT0,USDT0 (Tether),https://docs.usdt0.to/technical-documentation/deployments,USDT0 token on Polygon PoS
+ethereum,0xdac17f958d2ee523a2206206994597c13d831ec7,USDT,Tether,https://tether.to/en/supported-protocols,USDT on Ethereum (page links the Etherscan token page for this address; checked 2026-10-25 in a browser because the page blocks scripts)

@@ -1,6 +1,6 @@
 # Paymaster labels: research notes
 
-Companion to `paymaster-labels.csv` (79 rows). Researched 2026-10-25.
+Companion to `paymaster-labels.csv` (99 rows: 79 from the first pass, 19 from the second pass, 1 from the addendum). Researched 2026-10-25.
 
 ## How the table was built
 
@@ -241,7 +241,7 @@ The dashboard will undercount sponsorship if it only counts `paymaster != 0x0`.
 - pichain 0x72e4... is `verifying` in 4337-stats, but it answers `token()`. The CSV leaves it unknown.
 - BundleBear maps `both` to "unlabeled" in its spend-type charts (`erc4337_paymaster_spend_type_metric.sql`). If you copy its approach, all hybrid volume (Pimlico, Candide, Coinbase, Alchemy) falls out of the sponsor/ERC-20 split. Decode the events above instead.
 
-## The 10 Base addresses you asked about
+## Ten high-volume Base addresses
 
 | Address | Who | Source |
 | - | - | - |
@@ -270,12 +270,12 @@ The dashboard will undercount sponsorship if it only counts `paymaster != 0x0`.
 - Basescan, Arbiscan and Blockscout block automated requests, so Base/Arbitrum/Optimism/Polygon contract names come from Sourcify only. Rows marked `unverified` may still be verified on an Etherscan-family explorer.
 - `chains` reflects code present on 2026-10-25. It does not prove the contract has recent volume on that chain.
 
-## Unresolved questions
+## Open questions
 
-1. Who runs 0x886f51115829cb326b74e8a834fb93fe25e85050? It is a Base-only v0.7 proxy (implementation 0xa0b5e7caedf77cbb560c2144b75cd1655a388332, owner 0xe739076bd1dc734346cbe8bb90035ff50b4d3b31). Checking its Basescan page by hand, or the paymaster-signer address in a sample userop, is the next step.
-2. 0x8bf5... was reportedly deployed on 23 Oct 2026, two days before this research. If it already shows high volume, confirm the dates in your data before trusting the attribution.
-3. For TokenPocket 0x7a956fd3..., is it a sponsor or an ERC-20 paymaster? The bytecode is unverified. A sample userop trace would settle it.
-4. Do you want rows for the 7 deprecated single-token Pimlico ERC-20 paymasters kept separate, or rolled into "pimlico erc20"? They matter only for 2023-2024 history.
+1. The operator of 0x886f51115829cb326b74e8a834fb93fe25e85050 is not public. It is a Base-only v0.7 proxy (implementation 0xa0b5e7caedf77cbb560c2144b75cd1655a388332, owner 0xe739076bd1dc734346cbe8bb90035ff50b4d3b31).
+2. Central City 0x8bf5... was first deployed at Base block 53000665 (2026-10-23 21:24 UTC), after the window ends, so it has no userops in this dataset.
+3. TokenPocket 0x7a956fd3... is not classified as sponsor or ERC-20. Its bytecode is unverified, and it emits no event that the pipeline decodes.
+4. The seven retired single-token Pimlico ERC-20 paymasters (2023 to 2024) are kept as separate rows. They matter only for older history.
 
 ## Second pass (2026-10-25)
 
@@ -352,5 +352,5 @@ No per-op event: BronPaymaster (ERC-20, so use token Transfer logs), NotusPaymas
 - **EntryPoint:** v0.7 (`entryPoint()`). Polygon only. It is not a proxy, and its bytecode is unverified on Sourcify.
 - **How it runs:** relayer EOAs call this contract's own `handleOps` (selector 0x765e827f). It forwards the bundle to EntryPoint v0.7 and pays from its EntryPoint deposit (about 18,740 POL on 2026-10-25). This is the same pattern as Biconomy's MEEEntryPoint and Superform's SuperNativePaymaster. Only about 16% of its bytecode matches Biconomy's, so it is not a copy.
 - **Sponsor vs ERC-20:** sponsor, inferred from bytecode, not from source. It has `validatePaymasterUserOp`/`postOp` (v0.7), `deposit` and `withdrawTo` selectors, but no ERC-20 `transfer`/`transferFrom` selector, so it cannot charge users in a token itself. In the sample tx the USDC.e transfers are between Polymarket contracts, not to this address.
-- **Per-op event:** none. Sample tx 0x3570f7c6c6156aa75d96605d5cd92d3fb458f6a5c41a0ff2d8d3c804d0eacf81 has no log emitted by this address, only EntryPoint `BeforeExecution`/`UserOperationEvent` and Polymarket/USDC.e logs. This matches the coordinator's observation. Count its userops from EntryPoint `UserOperationEvent` with `paymaster` = this address.
-- **Next step to name it:** look up owner() 0x3f68d7f32d163d3044f93bd75816765222eedb89 and the relayer EOAs (e.g. 0x47cb829ef9b2ef5dbd7307fe6ad58bfb83f38170, 0x5b244854fa56483b9baab9e11a036647a02f9e9a) on Polygonscan by hand.
+- **Per-op event:** none. Sample tx 0x3570f7c6c6156aa75d96605d5cd92d3fb458f6a5c41a0ff2d8d3c804d0eacf81 has no log emitted by this address, only EntryPoint `BeforeExecution`/`UserOperationEvent` and Polymarket/USDC.e logs. This is why no mode event is counted for it. Count its userops from EntryPoint `UserOperationEvent` with `paymaster` = this address.
+- **Open:** the operator could be found by looking up owner() 0x3f68d7f32d163d3044f93bd75816765222eedb89 and the relayer EOAs (e.g. 0x47cb829ef9b2ef5dbd7307fe6ad58bfb83f38170, 0x5b244854fa56483b9baab9e11a036647a02f9e9a) on Polygonscan.

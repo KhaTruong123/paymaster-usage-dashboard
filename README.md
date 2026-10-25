@@ -32,8 +32,6 @@ ERC-20 and stablecoin columns are shares of paymaster-paid userops. They are low
 - Base: Coinbase's CDP paymaster paid for 58% of paymaster userops. Its daily volume roughly tripled in the last 3 days of the window (309k on Oct 21, 850k on Oct 23).
 - Ethereum and Arbitrum are where users pay gas in stablecoins: mostly USDT and USDC through Pimlico's singleton paymaster.
 
-A draft reply to the original question is in `docs/reply-draft.md`. It has not been posted.
-
 ## How it works
 
 1. `scripts/find_window_blocks.py` finds the first and last block of the window on each chain.
